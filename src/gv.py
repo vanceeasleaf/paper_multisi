@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 14:39:58
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-19 18:32:58
+# @Last Modified time: 2017-06-21 16:28:27
 from aces.tools import *
 from aces.graph import fig, setLegend, pl, fit
 import numpy as np
@@ -12,7 +12,7 @@ text_style = dict(
     fontsize=12,
     fontdict={'family': 'serif'})
 vs = '2l1,2l2,2l3,2lh,2lr,3l1,3l2,4l1,5l1,6l1,8l1,Silicene'.split(',')
-with fig('gv.png'):
+with fig('gv.eps'):
     fi, axes = pl.subplots(2, 6, sharex=True, sharey=True, figsize=(10, 7))
     for i, v in enumerate(vs):
         print v
@@ -43,7 +43,7 @@ with fig('gv.png'):
             fil = (freqs > i * df) * (freqs < (i + 1) * df)
             ff.append(i * df)
             if fil.sum() == 0:
-                gg.append(0)
+                gg.append(np.array([0, 0, 0]))
             else:
                 gg.append(gvs[fil].mean(axis=0))
         gg = np.array(gg)

@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-19 17:05:44
+# @Last Modified time: 2017-06-21 16:22:13
 
 import aces.tools as tl
 from aces.graph import fig, setLegend, pl
@@ -12,7 +12,7 @@ colors = "k,r,b,g,purple".split(',')
 import matplotlib
 matplotlib.rcParams['ytick.minor.width'] = 1.5
 matplotlib.rcParams['ytick.minor.size'] = 3
-with fig('tao2l.png'):
+with fig('tau.eps'):
     fi, axes = pl.subplots(1, 3, sharex=True, sharey=True, figsize=(10, 7))
     for j in range(3):
         if j == 0:
