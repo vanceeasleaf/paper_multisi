@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   1970-01-01 08:00:00
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-21 22:19:29
+# @Last Modified time: 2017-06-21 22:33:29
 from aces.tools import *
 from ase import io
 from aces.graph import fig, setLegend, pl, fit
@@ -36,8 +36,8 @@ with fig('transmission.eps'):
         cross = np.linalg.norm(
             atoms.cell[0]) * (atoms.positions[:, 2].max() - atoms.positions[:, 2].min())
 
-        # ax.plot(freq, trans / cross, color="k", ls="--", label=v + "")
-        ax.fill_between(freq, 0, trans / cross, color='r', alpha=0.5)
+        ax.plot(freq, trans / cross, color="r", label=v + "")
+        #ax.fill_between(freq, 0, trans / cross, color='r', alpha=0.5)
         ax.set_yticks([])
         ax.set_yticklabels([])
         # ax.set_ylabel("Phonon Transmission")
