@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 16:26:09
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-21 17:02:00
+# @Last Modified time: 2017-06-23 15:08:36
 from aces.tools import *
 from ase import io
 from aces.graph import fig, setLegend, pl, fit
@@ -18,7 +18,7 @@ with fig('pr_direction.png'):
         3, 4, figsize=(
             10, 7), subplot_kw=dict(
             projection='polar'))
-    print vs
+    print(vs)
     for i, v in enumerate(vs):
         ax = axes[i // 4, i % 4]
         if v == "2lh":

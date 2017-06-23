@@ -1,7 +1,7 @@
 % @Author: YangZhou
 % @Date:   2017-06-20 20:27:38
 % @Last Modified by:   YangZhou
-% @Last Modified time: 2017-06-23 13:06:47
+% @Last Modified time: 2017-06-23 15:56:59
 \documentclass[%
  reprint,
  amsmath,amssymb,
@@ -158,12 +158,22 @@ The influence of thickness change on the thermal transport properties was then i
 \caption{\label{fig:transmission} (color online)The anisotropic transmission function of the structures. The structure identifiers are labeled at top-left of each subplot. the transmission along zigzag direction is ploted as black curve while that of armchair direction is filled. The y range of each subplot is normalized to the max value within the graph.}
 \end{figure}
 
+\begin{figure}[b]
+\includegraphics[width=0.48\textwidth]{images/bands}
+\caption{\label{fig:bands}(color online) The phonon dispersion of multilayer silicon along high-symmetry points. (a)2l1 and (b) 2l2 are bilayer structure (c) 3l1 is trilayer structure, (d) 4l1 is four-layer structure and (e) 6l1 width six layers, (f)10l1 with ten layers.}
+\end{figure}
 In order to understand the relationship between the thermal conductivity and the length of the different structures and different layers, we use molecular dynamics to measure the phonon spectra of several typical structures. The $10 \times  10  \times  1$ multilayer structure is chosen. The selected high symmetry points are $K(0.5, 0.5, 0.0) , \Gamma(0.0, 0.0, 0.0), X(0.5, 0.0, 0.0),  Y(0.0, 0.5, 0.0)$, Take points along $ K \rightarrow \Gamma \rightarrow X\rightarrow Y$ as shown in FIG.\ref{fig:bands}.According to the supercell structure, the zigzag boundary corresponds to $ \Gamma \rightarrow X$ direction in the dispersion, and the armchair boundary corresponds to $\Gamma\rightarrow Y$ direction. According to the relationship between the phonon spectrum and heat conduction, in the two-dimensional nano system, the acoustic phonon plays a major role in heat transport. There are a total of 3 acoustic branches, including the LA mode along the transmission direction, TA along the transverse and ZA mode along the perpendicular direction. FIG.\ref{fig:bands}(a) and (b) corresponds to the calculated spectra of the bilayer structure 2l1 and 2l2. The group velocity of $\Gamma\rightarrow X$ acoustic branch in 2l1 is obviously larger than that of $\Gamma\rightarrow Y$, making zigzag direction more heat conducive , which also verifies the difference between 2l1z and 2l1a thermal conductivity and anisotropy. Accordingly, the three phonons in the two direction is almost the same as that in the 2l2, so the 2l2z and 2l2a are the least anisotropic structures with surface reconstruction. Comparing the two graphs, it can be found that all the group velocities of three phonons of 2l2 decrease. At the same time, the low frequency optical branch has the trend of moving down and couple with acoustic ones, which makes it less heat conducive, so that the 2l2 heat transport changes little with the length. The figure (c) (d) (e) is the dispersion of 3l1, 4l1, 6l1 $2 \times 1$ structure, all of whose three phonon group velocity are larger along zigzag than armchair. With the increase of layers, the optical branch participation gradually gathered in the high frequency area ($>15THz$), having almost no contribution to thermal conductivity while the vibration mode of the low frequency ($<5THz$) region is almost unchanged. On the other hand, with the increase of thickness, the acoustic velocity of armchair direction increases gradually, which prompts the decrease of anisotropic in multilayer silicon with the increase of layer number. Compared with phonon spectrum of the 6-layer structure(e), the difference between the 10 layers (f) is mainly the contribution of more atoms in the middle and high frequency ($>5THz$) region, which has little effect on the thermal conductivity.
 
 \begin{figure}[b]
 \includegraphics[width=0.48\textwidth]{images/gv}
 \caption{\label{fig:gv} (color online)Group Velocity.}
 \end{figure}
+
+The anisotropy of phonon velocity has little contribution for the anisotropy of the thermal conductivity. FIG.\ref{fig:gv} showes the group velocity along both zigzag and armchair direction for all the structures. The group velocity  along the two directions of  2 layers silicene ( include silicene) are exactly the same except for that of 2lr3 structure whose low frequency group velocities are highly anisotropic. Group velocity for the others are all highly anisotropic and it's obvious that the group velocity of armchair direction are all large than that of zigzag. The relation between the group velocity of both direction are contrast with that of the thermal conductivity, which indicate that the main effect of anistropy is not from group velocity but the scatter rate origin from anharmonic effects.
+
+The 
+
+
 
 \begin{figure}[b]
 \includegraphics[width=0.48\textwidth]{images/tau}
@@ -180,10 +190,7 @@ In order to understand the relationship between the thermal conductivity and the
 \caption{\label{fig:vl_length}(color online) The dependence on length of thermal conductivity for silicon with variable layers.}
 \end{figure}
 
-\begin{figure}[b]
-\includegraphics[width=0.48\textwidth]{images/bands}
-\caption{\label{fig:bands}(color online) The phonon dispersion of multilayer silicon along high-symmetry points. (a)2l1 and (b) 2l2 are bilayer structure (c) 3l1 is trilayer structure, (d) 4l1 is four-layer structure and (e) 6l1 width six layers, (f)10l1 with ten layers.}
-\end{figure}
+
 
 \section{CONCLUSIONS}
 
