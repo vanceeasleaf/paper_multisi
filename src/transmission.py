@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   1970-01-01 08:00:00
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-21 22:33:29
+# @Last Modified time: 2017-06-23 21:23:56
 from aces.tools import *
 from ase import io
 from aces.graph import fig, setLegend, pl, fit
@@ -45,7 +45,7 @@ with fig('transmission.eps'):
         ax.set_xlim([0, 22])
         # setLegend(ax, fontsize=9)
     #ax.set_xlabel("Frequency (THz)")
-    fi.text(0.5, 0.04, 'Frequency (THz)', ha='center')
+    fi.text(0.5, 0.04, 'Phonon Frequency (THz)', ha='center')
     fi.text(0.07, 0.5, 'Phonon Transmission', va='center', rotation='vertical')
     fi.subplots_adjust(
         left=None,

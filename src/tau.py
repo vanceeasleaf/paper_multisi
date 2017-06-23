@@ -2,13 +2,14 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-23 19:26:23
+# @Last Modified time: 2017-06-23 21:24:07
 
 
 from aces.graph import fig, setLegend, pl
 import numpy as np
 from aces.algorithm.kpoints import filter_along_direction as fad
 from aces.io.shengbte import get_qpoints_full as gqf, get_tau, get_omega
+from aces.f import binmeanx
 markers = ['^', 's', "8"]
 colors = "k,r,b,g,purple".split(',')
 import matplotlib
@@ -46,20 +47,12 @@ with fig('tau.eps'):
                     tau_full[fil].flatten()]
                 q = np.nan_to_num(q)
 
-                xx = []
-                dp = 0.4
-                for p in np.arange(0.0, 5.0, dp):
-                    f1 = (q[:, 0] <= (p + dp)) * (q[:, 0] > p)
-                    if f1.any():
-                        xx.append([p + dp * .5, q[f1, 1].mean()])
-                xx = np.array(xx)
+                x, y = binmeanx(q, [0.0, 5.0], dx=0.5)
                 mfc = [colors[i], 'w'][s == 'a']
                 ls = ['-', '-.'][s == 'a']
-                if len(xx) == 0:
-                    break
                 ax.semilogy(
-                    xx[:, 0],
-                    xx[:, 1],
+                    x,
+                    y,
                     ls=ls,
                     marker=markers[i],
                     markersize=9,
@@ -70,7 +63,7 @@ with fig('tau.eps'):
                 ax.set_xlim([0, 4.55])
                 ax.set_ylim([1e-0, 1e3])
                 setLegend(ax, fontsize=10)
-    fi.text(0.5, 0.04, 'Frequency (THz)', ha='center')
+    fi.text(0.5, 0.04, 'Phonon Frequency (THz)', ha='center')
     fi.text(
         0.05, 0.5, 'Relaxation Time (ps)', va='center', rotation='vertical')
     fi.subplots_adjust(
