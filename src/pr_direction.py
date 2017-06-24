@@ -2,65 +2,60 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 16:26:09
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-23 15:08:36
-from aces.tools import *
-from ase import io
-from aces.graph import fig, setLegend, pl, fit
+# @Last Modified time: 2017-06-23 21:59:58
+
+from aces.graph import fig, setLegend, pl
+from aces.algorithm.kpoints import filter_along_direction as fad
 import numpy as np
+from aces.f import binmeanx
 text_style = dict(horizontalalignment='left', verticalalignment='center',
                   fontsize=12, fontdict={'family': 'serif'})
 vs = '2l1  2l2  2l3  2lh  2lr3  3l1  3l2  4l1  5l1  6l1  8l1  Silicene'.split()
-import matplotlib
-matplotlib.rcParams['axes.linewidth'] = 0
-with fig('pr_direction.png'):
+markers = ['^', 's', "8"]
+colors = "k,r,b,g,purple".split(',')
+with fig('pr_direction.eps'):
 
     fi, axes = pl.subplots(
-        3, 4, figsize=(
-            10, 7), subplot_kw=dict(
-            projection='polar'))
+        3, 4, sharex=True, sharey=True, figsize=(10, 10))
     print(vs)
-    for i, v in enumerate(vs):
-        ax = axes[i // 4, i % 4]
-        if v == "2lh":
-            v = "2lhex"
-        if v == "2lr3":
-            v = "2lrt3"
-        #shell_exec("cd %s/0/secondorder/; ae drawpr"%v)
-        file = v + "/0/secondorder/prq.txt"
-        y = np.loadtxt(file)
-        """
-		poscar=v+"/0/POSCAR"
-		atoms=io.read(poscar)
-		rcell=atoms.get_reciprocal_cell()
-		yy=[]
-		for x in y:
-			xx=x[:3].dot(rcell)
-			yy.append(xx)
-		yy=np.array(yy)
-		"""
-        N = 30
-        dth = 2 * np.pi / N
-        ths = np.arange(0, N) * dth
-        prs = []
-        thi = np.arctan2(y[:, 1], y[:, 0])  # *180/np.pi
-        thi[thi < 0] += 2 * np.pi
-        for th in ths:
-            fil = (thi > th - .5 * dth) * (thi <= th + .5 * dth)
-            if fil.sum() > 0:
-                xx = y[fil, 4].mean()
-            else:
-                xx = None
-            prs.append(xx)
-        ax.plot(ths, prs, lw=2, color='r')
-        # for periodic
-        ax.plot(np.array(ths)[[-1, 0]], np.array(prs)
-                [[-1, 0]], lw=2, color='r')
-        ax.set_rlim([0, 1.2])
-        ax.set_rticks([])
-
-        ax.text(.02, .8, "(" + v + ")", transform=ax.transAxes, **text_style)
-        if i > 0:
-            ax.set_xticks([])
+    for j in range(3):
+        vv = np.array(vs).reshape([3, 4])[j]
+        for i, v in enumerate(vv):
+            for s in ['z', 'a']:
+                ax = axes[j, i]
+                if v == "2lh":
+                    v = "2lhex"
+                if v == "2lr3":
+                    v = "2lrt3"
+                #shell_exec("cd %s/0/secondorder/; ae drawpr"%v)
+                file = v + "/0/secondorder/prq.txt"
+                y = np.loadtxt(file)
+                dth = np.pi / 10
+                if s == "z":
+                    phi = 0.0
+                else:
+                    phi = np.pi / 2.0
+                fil = fad(y, phi, dth)
+                q = y[fil][:, [3, 4]]
+                x, y = binmeanx(q, [0, 4.5], .5)
+                mfc = [colors[0], 'w'][s == 'a']
+                ls = ['-', '-.'][s == 'a']
+                ax.plot(x, y, ls=ls,
+                        marker=markers[0],
+                        markersize=9,
+                        markeredgecolor=colors[0],
+                        markerfacecolor=mfc,
+                        color=colors[0], label=v + s)
+                ax.set_xlim([0, 4.9])
+                ax.set_ylim([0, 1.2])
+                setLegend(ax, fontsize=10)
+    fi.text(0.5, 0.04, 'Phonon Frequency(THz)', ha='center')
+    fi.text(
+        0.05,
+        0.5,
+        'Phonon Participation Ratio',
+        va='center',
+        rotation='vertical')
     fi.subplots_adjust(
         left=None,
         bottom=None,
