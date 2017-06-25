@@ -1,0 +1,3016 @@
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.6.21)  26 JUN 2017 00:38
+entering extended mode
+**../presentation.tex
+(J:\home1\zhouy\projects\paper_multisi\pre\presentation.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamer.cls
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasercs.sty
+Package: beamerbasercs 2012/02/22 (rcs-revision 46e1bc9c9b76)
+)
+Document Class: beamer 2011/09/12 development version 3.14 A class for typesett
+ing presentations (rcs-revision 70f9d8411e54)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasemodes.sty
+Package: beamerbasemodes 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count80
+\c@beamerpauses=\count81
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasedecode.sty
+Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@slideinframe=\count82
+\beamer@minimum=\count83
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count84
+)
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count85
+\beamer@subsubsectionmax=\count86
+\beamer@subsectionmax=\count87
+\beamer@sectionmax=\count88
+\beamer@totalheads=\count89
+\beamer@headcounter=\count90
+\beamer@partstartpage=\count91
+\beamer@sectionstartpage=\count92
+\beamer@subsectionstartpage=\count93
+\beamer@animationtempa=\count94
+\beamer@animationtempb=\count95
+\beamer@xpos=\count96
+\beamer@ypos=\count97
+\beamer@showpartnumber=\count98
+\beamer@currentsubsection=\count99
+\beamer@coveringdepth=\count100
+\beamer@sectionadjust=\count101
+\beamer@tocsectionnumber=\count102
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaseoptions.sty
+Package: beamerbaseoptions 2010/04/27 (rcs-revision 982469101dd6)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(C:\CTEX\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(C:\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+
+(C:\CTEX\MiKTeX\tex\xelatex\xetexconfig\geometry.cfg))
+(C:\CTEX\MiKTeX\tex\latex\base\size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+(C:\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+(C:\CTEX\MiKTeX\tex\xelatex\xetex-def\xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(C:\CTEX\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks16
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+\pgfutil@abb=\box34
+
+(C:\CTEX\MiKTeX\tex\latex\ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen129
+\pgf@y=\dimen130
+\pgf@xa=\dimen131
+\pgf@ya=\dimen132
+\pgf@xb=\dimen133
+\pgf@yb=\dimen134
+\pgf@xc=\dimen135
+\pgf@yc=\dimen136
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-xetex.def on input line 900.
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-xetex.def
+File: pgfsys-xetex.def 2010/02/16  (rcs-revision 1.3)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf-via-dvi.def
+File: pgfsys-common-pdf-via-dvi.def 2008/05/19  (rcs-revision 1.7)
+)))
+(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(C:\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(C:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex)
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen137
+\pgfmath@count=\count112
+\pgfmath@box=\box35
+\pgfmath@toks=\toks20
+\pgfmath@stack@operand=\toks21
+\pgfmath@stack@operation=\toks22
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex)
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
+(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count113
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen138
+\pgf@picmaxx=\dimen139
+\pgf@picminy=\dimen140
+\pgf@picmaxy=\dimen141
+\pgf@pathminx=\dimen142
+\pgf@pathmaxx=\dimen143
+\pgf@pathminy=\dimen144
+\pgf@pathmaxy=\dimen145
+\pgf@xx=\dimen146
+\pgf@xy=\dimen147
+\pgf@yx=\dimen148
+\pgf@yy=\dimen149
+\pgf@zx=\dimen150
+\pgf@zy=\dimen151
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen152
+\pgf@path@lasty=\dimen153
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen154
+\pgf@shorten@start@additional=\dimen155
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count114
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen156
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen157
+\pgf@pt@y=\dimen158
+\pgf@pt@temp=\dimen159
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen160
+\pgf@sys@shading@range@num=\count115
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box39
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count116
+\XC@countmixins=\count117
+)
+(C:\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2012/02/06 v6.82o Hypertext links for LaTeX
+
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(C:\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen161
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(C:\CTEX\MiKTeX\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2012/02/06 v6.82o Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count120
+
+(C:\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 3925.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3925.
+Package hyperref Info: Option `implicit' set `false' on input line 3925.
+Package hyperref Info: Hyper figures OFF on input line 4046.
+Package hyperref Info: Link nesting OFF on input line 4051.
+Package hyperref Info: Hyper index ON on input line 4054.
+Package hyperref Info: Plain pages OFF on input line 4061.
+Package hyperref Info: Backreferencing OFF on input line 4066.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4284.
+\c@Hy@tempcnt=\count121
+
+(C:\CTEX\MiKTeX\tex\xelatex\xetexurl\url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4637.
+\Fld@menulength=\count122
+\Field@Width=\dimen162
+\Fld@charsize=\dimen163
+Package hyperref Info: Hyper figures OFF on input line 5757.
+Package hyperref Info: Link nesting OFF on input line 5762.
+Package hyperref Info: Hyper index ON on input line 5765.
+Package hyperref Info: backreferencing OFF on input line 5772.
+Package hyperref Info: Link coloring OFF on input line 5777.
+Package hyperref Info: Link coloring with OCG OFF on input line 5782.
+Package hyperref Info: PDF/A mode OFF on input line 5787.
+LaTeX Info: Redefining \ref on input line 5827.
+LaTeX Info: Redefining \pageref on input line 5831.
+\Hy@abspage=\count123
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(C:\CTEX\MiKTeX\tex\latex\hyperref\hxetex.def
+File: hxetex.def 2012/02/06 v6.82o Hyperref driver for XeTeX
+
+(C:\CTEX\MiKTeX\tex\latex\hyperref\puenc.def
+File: puenc.def 2012/02/06 v6.82o Hyperref: PDF Unicode definition (HO)
+)
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\stringenc.sty
+Package: stringenc 2010/03/01 v1.8 Converts strings between encodings (HO)
+)
+\pdfm@box=\box40
+\c@Hy@AnnotLevel=\count124
+\HyField@AnnotCount=\count125
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
+
+(C:\CTEX\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
+))
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\se-ascii-print.def
+File: se-ascii-print.def 2010/03/01 v1.8 stringenc: Printable ASCII characters
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaserequires.sty
+Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasecompatibility.sty
+Package: beamerbasecompatibility 2011/09/24  (rcs-revision 17e820568435)
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasefont.sty
+Package: beamerbasefont 2010/10/26  (rcs-revision f39336aafb3c)
+
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks23
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)))
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasetranslator.sty
+Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\translator\translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\translator\translator-language-mappings.t
+ex))) (C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasemisc.sty
+Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasetwoscreens.sty
+Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2012/02/22  (rcs-revision 1e3e174835fb)
+\beamer@argscount=\count128
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count129
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasetitle.sty
+Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasesection.sty
+Package: beamerbasesection 2012/02/22  (rcs-revision 9a2581f9efb6)
+\c@lecture=\count130
+\c@part=\count131
+\c@section=\count132
+\c@subsection=\count133
+\c@subsubsection=\count134
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaseframe.sty
+Package: beamerbaseframe 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@framebox=\box41
+\beamer@frametitlebox=\box42
+\beamer@zoombox=\box43
+\beamer@zoomcount=\count135
+\beamer@zoomframecount=\count136
+\beamer@frametextheight=\dimen164
+\c@subsectionslide=\count137
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks24
+\c@framenumber=\count138
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@verbatimfileout=\write4
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaseframesize.sty
+Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@splitbox=\box44
+\beamer@autobreakcount=\count139
+\beamer@autobreaklastheight=\dimen165
+\beamer@frametitletoks=\toks25
+\beamer@framesubtitletoks=\toks26
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaseframecomponents.sty
+Package: beamerbaseframecomponents 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@footins=\box45
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasecolor.sty
+Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasenotes.sty
+Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@frameboxcopy=\box46
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasetoc.sty
+Package: beamerbasetoc 2012/02/28  (rcs-revision 138681b92320)
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasetemplates.sty
+Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@sbttoks=\toks27
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaseauxtemplates.sty
+Package: beamerbaseauxtemplates 2010/05/01  (rcs-revision efa082c6111d)
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaseboxes.sty
+Package: beamerbaseboxes 2010/05/01  (rcs-revision efa082c6111d)
+\bmb@box=\box47
+\bmb@colorbox=\box48
+\bmb@boxshadow=\box49
+\bmb@boxshadowball=\box50
+\bmb@boxshadowballlarge=\box51
+\bmb@temp=\dimen166
+\bmb@dima=\dimen167
+\bmb@dimb=\dimen168
+\bmb@prevheight=\dimen169
+)
+\beamer@blockheadheight=\dimen170
+))
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbaselocalstructure.sty
+Package: beamerbaselocalstructure 2012/02/22  (rcs-revision 2ae76965ffee)
+
+(C:\CTEX\MiKTeX\tex\latex\tools\enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks28
+)
+\c@figure=\count140
+\c@table=\count141
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasenavigation.sty
+Package: beamerbasenavigation 2010/05/01  (rcs-revision efa082c6111d)
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasetheorems.sty
+Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
+
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks29
+\ex@=\dimen171
+))
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen172
+)
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count142
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count143
+\leftroot@=\count144
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count145
+\DOTSCASE@=\count146
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen173
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count147
+\c@MaxMatrixCols=\count148
+\dotsspace@=\muskip11
+\c@parentequation=\count149
+\dspbrk@lvl=\count150
+\tag@help=\toks30
+\row@=\count151
+\column@=\count152
+\maxfields@=\count153
+\andhelp@=\toks31
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
+\@envbody=\toks32
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(C:\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks34
+\thm@bodyfont=\toks35
+\thm@headfont=\toks36
+\thm@notefont=\toks37
+\thm@headpunct=\toks38
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks39
+)
+\c@theorem=\count154
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\beamerbasethemes.sty
+Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
+))
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\themes\theme\beamerthemedefault.sty
+Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\themes\font\beamerfontthemedefault.sty
+Package: beamerfontthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\themes\color\beamercolorthemedefault.sty
+Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+) (C:\CTEX\MiKTeX\tex\latex\beamer\base\themes\inner\beamerinnerthemedefault.st
+y
+Package: beamerinnerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+\beamer@dima=\dimen180
+\beamer@dimb=\dimen181
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\themes\outer\beamerouterthemedefault.sty
+Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))) (J:\home1\zhouy\projects\paper_multisi\pre\bin\beamerthemefibeamer.sty
+
+LaTeX Warning: You have requested package `beamerthemefibeamer',
+               but the package provides `fibeamer/beamerthemefibeamer'.
+
+Package: fibeamer/beamerthemefibeamer 2017/07/05 v1.1.7 fibeamer MU beamer them
+e
+(C:\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(C:\CTEX\MiKTeX\tex\latex\misc\etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count155
+)
+\etb@tempcnta=\count156
+)
+(C:\CTEX\MiKTeX\tex\latex\microtype\microtype.sty
+Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
+
+
+Package microtype Warning: You don't seem to be using pdftex.
+(microtype)                `microtype' only works with pdftex.
+(microtype)                Try running `pdflatex' instead of `xelatex'.
+
+) (C:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\CTEX\MiKTeX\tex\latex\lm\lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\CTEX\UserData\tex\latex\carlito\carlito.sty
+Package: carlito 2014/08/20 (Bob Tennent) Supports Carlito fonts for LaTeX, pdf
+LaTeX, luaLaTeX and xeLaTeX.
+
+(C:\CTEX\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(C:\CTEX\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+\XKV@depth=\count157
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(C:\CTEX\MiKTeX\tex\latex\base\textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(C:\CTEX\MiKTeX\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(C:\CTEX\MiKTeX\tex\latex\fontspec\fontspec.sty
+Package: fontspec 2011/09/18 v2.2a Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\expl3.sty
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3names.sty
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3bootstrap.sty
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+)
+Package: l3names 2011/12/30 v3113 L3 Experimental namespace for primitives
+)
+Package: expl3 2012/02/26 v3471 L3 Experimental code bundle wrapper
+
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3basics.sty
+Package: l3basics 2012/02/26 v3460 L3 Experimental basic definitions
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3expan.sty
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3tl.sty
+Package: l3tl 2012/02/26 v3460 L3 Experimental token lists
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3seq.sty
+Package: l3seq 2012/01/09 v3158 L3 Experimental sequences and stacks
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3int.sty
+Package: l3int 2012/02/26 v3460 L3 Experimental integers
+\c_max_int=\count158
+\l_tmpa_int=\count159
+\l_tmpb_int=\count160
+\l_tmpc_int=\count161
+\g_tmpa_int=\count162
+\g_tmpb_int=\count163
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3quark.sty
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3prg.sty
+Package: l3prg 2012/02/26 v3464 L3 Experimental control structures
+\g_prg_map_int=\count164
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3clist.sty
+Package: l3clist 2012/02/26 v3460 L3 Experimental comma separated lists
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3token.sty
+Package: l3token 2012/02/26 v3460 L3 Experimental token manipulation
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3prop.sty
+Package: l3prop 2012/02/26 v3460 L3 Experimental property lists
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3msg.sty
+Package: l3msg 2012/02/26 v3470 L3 Experimental messages
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3file.sty
+Package: l3file 2012/02/26 v3464 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count165
+\l_iow_line_length_int=\count166
+\l_iow_target_length_int=\count167
+\l_iow_current_line_int=\count168
+\l_iow_current_word_int=\count169
+\l_iow_current_indentation_int=\count170
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3skip.sty
+Package: l3skip 2012/02/26 v3460 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen182
+\l_tmpb_dim=\dimen183
+\l_tmpc_dim=\dimen184
+\g_tmpa_dim=\dimen185
+\g_tmpb_dim=\dimen186
+\l_tmpa_skip=\skip57
+\l_tmpb_skip=\skip58
+\l_tmpc_skip=\skip59
+\g_tmpa_skip=\skip60
+\g_tmpb_skip=\skip61
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3keys.sty
+Package: l3keys 2011/12/22 v3086 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count171
+\l_keys_choice_int=\count172
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3fp.sty
+Package: l3fp 2012/02/06 v3315 L3 Experimental floating-point operations
+\c_one_hundred_million=\count173
+\c_five_hundred_million=\count174
+\c_one_thousand_million=\count175
+\c_fp_pi_by_four_decimal_int=\count176
+\c_fp_pi_by_four_extended_int=\count177
+\c_fp_pi_decimal_int=\count178
+\c_fp_pi_extended_int=\count179
+\c_fp_two_pi_decimal_int=\count180
+\c_fp_two_pi_extended_int=\count181
+\l_fp_count_int=\count182
+\l_fp_div_offset_int=\count183
+\l_fp_exp_integer_int=\count184
+\l_fp_exp_decimal_int=\count185
+\l_fp_exp_extended_int=\count186
+\l_fp_exp_exponent_int=\count187
+\l_fp_input_a_sign_int=\count188
+\l_fp_input_a_integer_int=\count189
+\l_fp_input_a_decimal_int=\count190
+\l_fp_input_a_exponent_int=\count191
+\l_fp_input_b_sign_int=\count192
+\l_fp_input_b_integer_int=\count193
+\l_fp_input_b_decimal_int=\count194
+\l_fp_input_b_exponent_int=\count195
+\l_fp_input_a_extended_int=\count196
+\l_fp_input_b_extended_int=\count197
+\l_fp_mul_a_i_int=\count198
+\l_fp_mul_a_ii_int=\count199
+\l_fp_mul_a_iii_int=\count200
+\l_fp_mul_a_iv_int=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\l_fp_mul_a_v_int=\count277
+\l_fp_mul_a_vi_int=\count278
+\l_fp_mul_b_i_int=\count279
+\l_fp_mul_b_ii_int=\count280
+\l_fp_mul_b_iii_int=\count281
+\l_fp_mul_b_iv_int=\count282
+\l_fp_mul_b_v_int=\count283
+\l_fp_mul_b_vi_int=\count284
+\l_fp_mul_output_int=\count285
+\l_fp_output_sign_int=\count286
+\l_fp_output_integer_int=\count287
+\l_fp_output_decimal_int=\count288
+\l_fp_output_exponent_int=\count289
+\l_fp_output_extended_int=\count290
+\l_fp_round_position_int=\count291
+\l_fp_round_target_int=\count292
+\l_fp_split_sign_int=\count293
+\l_fp_internal_int=\count294
+\l_fp_trig_octant_int=\count295
+\l_fp_trig_sign_int=\count296
+\l_fp_trig_decimal_int=\count297
+\l_fp_trig_extended_int=\count298
+\l_fp_internal_dim=\dimen187
+\l_fp_internal_skip=\skip62
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3box.sty
+Package: l3box 2012/02/18 v3432 L3 Experimental boxes
+\l_tmpb_box=\box54
+\l_box_top_dim=\dimen188
+\l_box_bottom_dim=\dimen189
+\l_box_left_dim=\dimen190
+\l_box_right_dim=\dimen191
+\l_box_top_new_dim=\dimen192
+\l_box_bottom_new_dim=\dimen193
+\l_box_left_new_dim=\dimen194
+\l_box_right_new_dim=\dimen195
+\l_box_internal_box=\box55
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3coffins.sty
+Package: l3coffins 2012/02/26 v3460 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box56
+\l_coffin_internal_dim=\dimen196
+\l_coffin_offset_x_dim=\dimen197
+\l_coffin_offset_y_dim=\dimen198
+\l_coffin_x_dim=\dimen199
+\l_coffin_y_dim=\dimen200
+\l_coffin_x_prime_dim=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\l_coffin_y_prime_dim=\dimen256
+\l_coffin_Depth_dim=\dimen257
+\l_coffin_Height_dim=\dimen258
+\l_coffin_TotalHeight_dim=\dimen259
+\l_coffin_Width_dim=\dimen260
+\c_empty_coffin=\box57
+\l_coffin_aligned_coffin=\box58
+\l_coffin_aligned_internal_coffin=\box59
+\l_coffin_bounding_shift_dim=\dimen261
+\l_coffin_left_corner_dim=\dimen262
+\l_coffin_right_corner_dim=\dimen263
+\l_coffin_bottom_corner_dim=\dimen264
+\l_coffin_top_corner_dim=\dimen265
+\l_coffin_scaled_total_height_dim=\dimen266
+\l_coffin_scaled_width_dim=\dimen267
+\l_coffin_display_coffin=\box60
+\l_coffin_display_coord_coffin=\box61
+\l_coffin_display_pole_coffin=\box62
+\l_coffin_display_offset_dim=\dimen268
+\l_coffin_display_x_dim=\dimen269
+\l_coffin_display_y_dim=\dimen270
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(C:\CTEX\MiKTeX\tex\latex\l3kernel\l3luatex.sty
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count299
+\g_cctab_stack_int=\count300
+))
+(C:\CTEX\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+Package: xparse 2012/02/26 v3471 L3 Experimental document command parser
+\l_xparse_current_arg_int=\count301
+\l_xparse_m_args_int=\count302
+\l_xparse_mandatory_args_int=\count303
+\l_xparse_processor_int=\count304
+\l_xparse_v_nesting_int=\count305
+)
+\l_fontspec_script_int=\count306
+\l_fontspec_language_int=\count307
+\l_fontspec_strnum_int=\count308
+\l_fontspec_tmpa_dim=\dimen271
+\l_fontspec_tmpb_dim=\dimen272
+\l_fontspec_tmpc_dim=\dimen273
+Variant \tl_gset:cV already defined; not changing it on line 66
+
+(C:\CTEX\MiKTeX\tex\latex\fontspec\fontspec-patches.sty
+Package: fontspec-patches 2011/09/18 v2.2a Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+(C:\CTEX\MiKTeX\tex\latex\base\fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 29.
+LaTeX Info: Redefining \- on input line 32.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 107.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 111.
+.................................................
+) (C:\CTEX\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2011/09/18 v2.2a Advanced font selection for XeLaTeX/Lu
+aLaTeX
+
+(C:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(C:\CTEX\MiKTeX\tex\latex\euenc\eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(C:\CTEX\MiKTeX\tex\latex\euenc\eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(C:\CTEX\MiKTeX\tex\xelatex\xunicode\xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(C:\CTEX\MiKTeX\tex\latex\tipa\t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+(C:\CTEX\MiKTeX\tex\latex\euenc\eu1lmss.fd
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count309
+\tipasavetokens=\toks42
+\tipachecktokens=\toks43
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 39.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 43.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 47.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 51.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 59.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 62.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 68.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 84.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 87.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'm' on line
+. 91.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 118.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 132.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 164.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 192.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 211.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 485
+Variant \prop_gput:cnx already defined; not changing it on line 486
+Variant \keys_set:nx already defined; not changing it on line 963
+\c@fontspec_tmp_int=\count310
+LaTeX Info: Redefining \itshape on input line 1881.
+LaTeX Info: Redefining \slshape on input line 1885.
+LaTeX Info: Redefining \scshape on input line 1889.
+LaTeX Info: Redefining \upshape on input line 1893.
+
+(C:\CTEX\MiKTeX\tex\latex\fontspec\fontspec.cfg)))
+Requested font "[Carlito-Regular.ttf]/ICU" at 10.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+\g_fontspec_family_Carlito_int=\count311
+Requested font "[Carlito-Bold.ttf]/ICU" at 10.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Bold.ttf
+Requested font "[Carlito-Italic.ttf]/ICU" at 10.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Italic.ttf
+Requested font "[Carlito-BoldItalic.ttf]/ICU" at 10.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-BoldItalic.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Carlito(0)' created for font 'Carlito' with options [ Ligatures
+. = TeX , Scale = 1, Extension = .ttf , Numbers = {Lining,Proportional},
+. UprightFont = *-Regular , ItalicFont = *-Italic , BoldFont = *-Bold ,
+. BoldItalicFont = *-BoldItalic ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text
+;+lnum;+pnum;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;+l
+num;+pnum;"
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Italic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;
++lnum;+pnum;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-BoldItalic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-t
+ext;+lnum;+pnum;"
+.................................................
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 83.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 10.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Carlito(0)' created for font 'Carlito' with options [ Ligatures
+. = TeX , Scale = 1, Extension = .ttf , Numbers = {Lining,Proportional},
+. UprightFont = *-Regular , ItalicFont = *-Italic , BoldFont = *-Bold ,
+. BoldItalicFont = *-BoldItalic ].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Carlito(1)' created for font 'Carlito' with options [ Ligatures
+. = TeX , Scale = 1, Extension = .ttf , Numbers = {Proportional,OldStyle},
+. UprightFont = *-Regular , ItalicFont = *-Italic , BoldFont = *-Bold ,
+. BoldItalicFont = *-BoldItalic ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text
+;+pnum;+onum;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;+p
+num;+onum;"
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Italic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;
++pnum;+onum;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-BoldItalic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-t
+ext;+pnum;+onum;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Carlito(2)' created for font 'Carlito' with options [ Ligatures
+. = TeX , Scale = 1, Extension = .ttf , Numbers = {Proportional,Lining},
+. UprightFont = *-Regular , ItalicFont = *-Italic , BoldFont = *-Bold ,
+. BoldItalicFont = *-BoldItalic ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text
+;+pnum;+lnum;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;+p
+num;+lnum;"
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Italic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;
++pnum;+lnum;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-BoldItalic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-t
+ext;+pnum;+lnum;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Carlito(3)' created for font 'Carlito' with options [ Ligatures
+. = TeX , Scale = 1, Extension = .ttf , Numbers = {Monospaced, Lining},
+. UprightFont = *-Regular , ItalicFont = *-Italic , BoldFont = *-Bold ,
+. BoldItalicFont = *-BoldItalic ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text
+;+tnum;+lnum;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;+t
+num;+lnum;"
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Italic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;
++tnum;+lnum;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-BoldItalic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-t
+ext;+tnum;+lnum;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Carlito(4)' created for font 'Carlito' with options [ Ligatures
+. = TeX , Scale = 1, Extension = .ttf , Numbers = {Monospaced, OldStyle},
+. UprightFont = *-Regular , ItalicFont = *-Italic , BoldFont = *-Bold ,
+. BoldItalicFont = *-BoldItalic ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text
+;+tnum;+onum;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;+t
+num;+onum;"
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-Italic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-text;
++tnum;+onum;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[1]"[Carlito-BoldItalic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-t
+ext;+tnum;+onum;"
+.................................................
+)
+(C:\CTEX\MiKTeX\tex\latex\dstroke\dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+Requested font "DejaVu Sans Mono" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono.pfb
+Requested font "DejaVu Sans Mono/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono.pfb
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font DejaVu Sans Mono does not contain any OpenType `Script' information.
+.................................................
+\g_fontspec_family_DejaVu Sans Mono_int=\count312
+Requested font "DejaVu Sans Mono/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono.pfb
+Requested font "DejaVu Sans Mono/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono.pfb
+Requested font "DejaVu Sans Mono/B/ICU" at 10.0pt
+ -> C:/WINDOWS/Fonts/DejaVuSansMono-Bold_0.ttf
+Requested font "DejaVu Sans Mono/B/B/ICU" at 10.0pt
+ -> C:/WINDOWS/Fonts/DejaVuSansMono-Bold_0.ttf
+Requested font "DejaVu Sans Mono/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono.pfb
+Requested font "DejaVu Sans Mono/I/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono-Oblique.pfb
+Requested font "DejaVu Sans Mono/I/I/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono-Oblique.pfb
+Requested font "DejaVu Sans Mono/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono.pfb
+Requested font "DejaVu Sans Mono/BI/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono-BoldOblique.pfb
+Requested font "DejaVu Sans Mono/BI/BI/ICU" at 10.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/dejavu/DejaVuSansMono-BoldOblique.pfb
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSansMono(0)' created for font 'DejaVu Sans Mono' with
+. options [,Scale=0.85].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->s*[0.85]"DejaVu Sans Mono/ICU:"
+. 
+. * 'bold' with NFSS spec.:
+. <->s*[0.85]"DejaVu Sans Mono/B/ICU:"
+. 
+. * 'italic' with NFSS spec.:
+. <->s*[0.85]"DejaVu Sans Mono/I/ICU:"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->s*[0.85]"DejaVu Sans Mono/BI/ICU:"
+.................................................
+
+(C:\CTEX\MiKTeX\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 221.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 10.95pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+
+(C:\CTEX\UserData\tex\latex\fibeamer\theme\mu\beamercolorthemefibeamer-mu.sty
+Package: fibeamer/theme/mu/beamercolorthemefibeamer-mu 2016/05/06
+
+(C:\CTEX\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count313
+\lst@gtempboxa=\box63
+\lst@token=\toks44
+\lst@length=\count314
+\lst@currlwidth=\dimen274
+\lst@column=\count315
+\lst@pos=\count316
+\lst@lostspace=\dimen275
+\lst@width=\dimen276
+\lst@newlines=\count317
+\lst@lineno=\count318
+\lst@maxwidth=\dimen277
+
+(C:\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count319
+\lst@skipnumbers=\count320
+\lst@framebox=\box64
+)
+(C:\CTEX\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(C:\CTEX\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box65
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(C:\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
+)
+(C:\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex))
+(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count321
+\pgfplotmarksize=\dimen282
+)
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikzleveldistance=\dimen287
+\tikzsiblingdistance=\dimen288
+\tikz@figbox=\box66
+\tikz@tempbox=\box67
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
+)
+\tikz@expandcount=\count329
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths
+.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+Package hyperref Info: Option `colorlinks' set `true' on input line 86.
+)
+(C:\CTEX\UserData\tex\latex\fibeamer\theme\mu\beamercolorthemefibeamer-mu-law.s
+ty
+Package: fibeamer/theme/mu/beamercolorthemefibeamer-mu-law 2016/05/06
+)
+(C:\CTEX\UserData\tex\latex\fibeamer\theme\mu\beamerfontthemefibeamer-mu.sty
+Package: fibeamer/theme/mu/beamerfontthemefibeamer-mu 2016/01/12
+)
+(C:\CTEX\UserData\tex\latex\fibeamer\theme\mu\beamerinnerthemefibeamer-mu.sty
+Package: fibeamer/theme/mu/beamerinnerthemefibeamer-mu 2016/01/14
+)
+(C:\CTEX\UserData\tex\latex\fibeamer\theme\mu\beamerouterthemefibeamer-mu.sty
+Package: fibeamer/theme/mu/beamerouterthemefibeamer-mu 2016/01/12
+\fibeamer@lengths@baseunit=\skip63
+\fibeamer@lengths@footerpad=\skip64
+\fibeamer@lengths@margin=\skip65
+\fibeamer@lengths@titleline=\skip66
+\fibeamer@lengths@clipbottom=\skip67
+\fibeamer@lengths@cliptop=\skip68
+\fibeamer@lengths@logowidth=\skip69
+\fibeamer@lengths@logoheight=\skip70
+)) (C:\CTEX\MiKTeX\tex\latex\base\inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
+
+(C:\CTEX\MiKTeX\tex\latex\base\utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(C:\CTEX\MiKTeX\tex\latex\base\t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(C:\CTEX\MiKTeX\tex\latex\base\ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(C:\CTEX\MiKTeX\tex\latex\base\omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(C:\CTEX\MiKTeX\tex\latex\base\ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+Now handling font encoding EU1 ...
+... no UTF-8 mapping file for font encoding EU1
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+Requested font "Calibri" at 10.95pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+Requested font "Calibri/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+Requested font "[lmroman10-regular]:mapping=tex-text" at 10.95pt
+ -> C:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-regular.otf
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri scale = 0.9233148510.
+.................................................
+\g_fontspec_family_Calibri_int=\count330
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri scale = 0.9233148510.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri scale = 0.9233148510.
+.................................................
+Requested font "Calibri/B/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+Requested font "Calibri/B/B/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri/B scale = 0.9137561490.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri/B scale = 0.9137561490.
+.................................................
+Requested font "Calibri/I/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+Requested font "Calibri/I/I/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri/I scale = 0.9233148510.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri/I scale = 0.9233148510.
+.................................................
+Requested font "Calibri/BI/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/calibriz.ttf
+Requested font "Calibri/BI/BI/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/calibriz.ttf
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri/BI scale = 0.9137561490.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Calibri/BI scale = 0.9137561490.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Calibri(0)' created for font 'Calibri' with options
+. [,Scale=MatchLowercase,Mapping=tex-text].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[0.9233148510]"Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[0.9233148510]"Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;+s
+mcp;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[0.9137561490]"Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;
+"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[0.9137561490]"Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;
++smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[0.9233148510]"Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;
+"
+. 
+. * 'italic small caps' with NFSS spec.:
+. 
+. <->s*[0.9233148510]"Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;
++smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[0.9137561490]"Calibri/BI/ICU:script=latn;language=DFLT;mapping=tex-text
+;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. 
+. <->s*[0.9137561490]"Calibri/BI/ICU:script=latn;language=DFLT;mapping=tex-text
+;+smcp;"
+.................................................
+Requested font "Courier New" at 10.95pt
+ -> C:/WINDOWS/Fonts/cour.ttf
+Requested font "Courier New/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/cour.ttf
+.................................................
+. fontspec info: "set-scale"
+. 
+. Courier New scale = 1.019271222.
+.................................................
+\g_fontspec_family_Courier New_int=\count331
+.................................................
+. fontspec info: "set-scale"
+. 
+. Courier New scale = 1.019271222.
+.................................................
+Requested font "Courier New/B/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/courbd.ttf
+Requested font "Courier New/B/B/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/courbd.ttf
+.................................................
+. fontspec info: "set-scale"
+. 
+. Courier New/B scale = 0.9721243800.
+.................................................
+Requested font "Courier New/I/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/couri.ttf
+Requested font "Courier New/I/I/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/couri.ttf
+.................................................
+. fontspec info: "set-scale"
+. 
+. Courier New/I scale = 1.019271222.
+.................................................
+Requested font "Courier New/BI/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/courbi.ttf
+Requested font "Courier New/BI/BI/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/courbi.ttf
+.................................................
+. fontspec info: "set-scale"
+. 
+. Courier New/BI scale = 0.9721243800.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'CourierNew(0)' created for font 'Courier New' with options
+. [,Scale=MatchLowercase].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->s*[1.019271222]"Courier New/ICU:script=latn;language=DFLT;"
+. 
+. * 'bold' with NFSS spec.:
+. <->s*[0.9721243800]"Courier New/B/ICU:script=latn;language=DFLT;"
+. 
+. * 'italic' with NFSS spec.:
+. <->s*[1.019271222]"Courier New/I/ICU:script=latn;language=DFLT;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->s*[0.9721243800]"Courier New/BI/ICU:script=latn;language=DFLT;"
+.................................................
+
+(C:\CTEX\MiKTeX\tex\generic\babel\babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\CTEX\MiKTeX\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(C:\CTEX\UserData\tex\latex\babel-czech\czech.ldf
+Language: czech 2008/07/06 v3.1a Czech support from the babel system
+
+(C:\CTEX\MiKTeX\tex\generic\babel\babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+LaTeX Info: Redefining \textlatin on input line 82.
+\babel@savecnt=\count332
+\U@D=\dimen289
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Czech'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@czech = a dialect from \language0
+Package babel Info: Making " an active character on input line 172.
+\cs@wordlen=\count333
+Package babel Info: Making - an active character on input line 226.
+) (C:\CTEX\UserData\tex\latex\babel-slovak\slovak.ldf
+Language: slovak 2008/07/06 v3.1a Slovak support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Slovak'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@slovak = a dialect from \language0
+Package babel Info: Making ^ an active character on input line 123.
+Package babel Info: Making ' an active character on input line 129.
+LaTeX Info: Redefining \uv on input line 278.
+\cs@wordlen=\count334
+) (C:\CTEX\MiKTeX\tex\latex\babel-english\english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@british = a dialect from \language0
+\l@UKenglish = a dialect from \language0
+\l@american = a dialect from \language0
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(C:\CTEX\MiKTeX\tex\latex\ms\ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(C:\CTEX\MiKTeX\tex\latex\ms\everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip71
+\RaggedLeftLeftskip=\skip72
+\RaggedRightLeftskip=\skip73
+\CenteringRightskip=\skip74
+\RaggedLeftRightskip=\skip75
+\RaggedRightRightskip=\skip76
+\CenteringParfillskip=\skip77
+\RaggedLeftParfillskip=\skip78
+\RaggedRightParfillskip=\skip79
+\JustifyingParfillskip=\skip80
+\CenteringParindent=\skip81
+\RaggedLeftParindent=\skip82
+\RaggedRightParindent=\skip83
+\JustifyingParindent=\skip84
+)
+(C:\CTEX\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen290
+\lightrulewidth=\dimen291
+\cmidrulewidth=\dimen292
+\belowrulesep=\dimen293
+\belowbottomsep=\dimen294
+\aboverulesep=\dimen295
+\abovetopsep=\dimen296
+\cmidrulesep=\dimen297
+\cmidrulekern=\dimen298
+\defaultaddspace=\dimen299
+\@cmidla=\count335
+\@cmidlb=\count336
+\@aboverulesep=\dimen300
+\@belowrulesep=\dimen301
+\@thisruleclass=\count337
+\@lastruleclass=\count338
+\@thisrulewidth=\dimen302
+)
+(C:\CTEX\MiKTeX\tex\latex\tools\tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(C:\CTEX\MiKTeX\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen303
+\extrarowheight=\dimen304
+\NC@list=\toks49
+\extratabsurround=\skip85
+\backup@length=\skip86
+)
+\TX@col@width=\dimen305
+\TX@old@table=\dimen306
+\TX@old@col=\dimen307
+\TX@target=\dimen308
+\TX@delta=\dimen309
+\TX@cols=\count339
+\TX@ftn=\toks50
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.co
+de.tex
+File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
+)
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.
+code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.
+geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.cod
+e.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.
+misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2008/10/07 v2.10 (rcs-revision 1.3)
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.
+symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.
+tex
+File: pgflibraryshapes.symbols.code.tex 2009/10/27 v2.10 (rcs-revision 1.3)
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.
+arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.t
+ex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+))
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.
+callouts.code.tex
+(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code
+.tex))
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.
+multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.cod
+e.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v2.10 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box68
+\pgfnodeparttwobox=\box69
+\pgfnodepartthreebox=\box70
+\pgfnodepartfourbox=\box71
+\pgfnodeparttwentybox=\box72
+\pgfnodepartnineteenbox=\box73
+\pgfnodeparteighteenbox=\box74
+\pgfnodepartseventeenbox=\box75
+\pgfnodepartsixteenbox=\box76
+\pgfnodepartfifteenbox=\box77
+\pgfnodepartfourteenbox=\box78
+\pgfnodepartthirteenbox=\box79
+\pgfnodeparttwelvebox=\box80
+\pgfnodepartelevenbox=\box81
+\pgfnodeparttenbox=\box82
+\pgfnodepartninebox=\box83
+\pgfnodeparteightbox=\box84
+\pgfnodepartsevenbox=\box85
+\pgfnodepartsixbox=\box86
+\pgfnodepartfivebox=\box87
+)))
+(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgro
+unds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2010/02/08 v2.10 (rcs-revision 1.2)
+\pgf@layerbox@background=\box88
+\pgf@layerboxsaved@background=\box89
+) (J:\home1\zhouy\projects\paper_multisi\pre\bin\presentation.aux
+
+LaTeX Warning: Label `lists<1>' multiply defined.
+
+
+LaTeX Warning: Label `lists' multiply defined.
+
+
+LaTeX Warning: Label `simmonshall<1>' multiply defined.
+
+
+LaTeX Warning: Label `simmonshall' multiply defined.
+
+
+LaTeX Warning: Label `proof<1>' multiply defined.
+
+
+LaTeX Warning: Label `proof' multiply defined.
+
+
+LaTeX Warning: Label `math<1>' multiply defined.
+
+
+LaTeX Warning: Label `math' multiply defined.
+
+
+LaTeX Warning: Label `figs1<1>' multiply defined.
+
+
+LaTeX Warning: Label `figs1' multiply defined.
+
+
+LaTeX Warning: Label `figs2<1>' multiply defined.
+
+
+LaTeX Warning: Label `figs2' multiply defined.
+
+
+LaTeX Warning: Label `citations<1>' multiply defined.
+
+
+LaTeX Warning: Label `citations' multiply defined.
+
+
+LaTeX Warning: Label `knuth84' multiply defined.
+
+
+LaTeX Warning: Label `lamport94' multiply defined.
+
+
+LaTeX Warning: Label `MG94' multiply defined.
+
+
+LaTeX Warning: Label `tantau04' multiply defined.
+
+
+LaTeX Warning: Label `MS05' multiply defined.
+
+
+LaTeX Warning: Label `bibliography<1>' multiply defined.
+
+
+LaTeX Warning: Label `bibliography' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
+ (C:\CTEX\MiKTeX\tex\latex\base\ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 42.
+
+(C:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(32.00931pt, 300.17674pt, 32.00931pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=300.17674pt
+* \textheight=244.6939pt
+* \oddsidemargin=-40.26068pt
+* \evensidemargin=-40.26068pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box90
+Package hyperref Info: Link coloring ON on input line 42.
+
+(C:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count340
+)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
+
+(J:\home1\zhouy\projects\paper_multisi\pre\bin\presentation.out)
+(J:\home1\zhouy\projects\paper_multisi\pre\bin\presentation.out)
+\@outlinefile=\write5
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 42.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 42.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/lmr/m/n on input line 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> EU1/Calibri(0)/bx/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> EU1/Calibri(0)/bx/n on input line 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> EU1/Calibri(0)/m/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> EU1/Calibri(0)/m/n on input line 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> EU1/Calibri(0)/m/it on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> EU1/Calibri(0)/m/it on input line 42.
+
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> EU1/CourierNew(0)/m/n on input line 42
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> EU1/CourierNew(0)/m/n on input line 42
+.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  EU1/Calibri(0)/m/n --> EU1/Calibri(0)/bx/n on input lin
+e 42.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  EU1/Calibri(0)/m/it --> EU1/Calibri(0)/bx/it on input l
+ine 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU1/lmr/bx/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  EU1/Calibri(0)/bx/n --> EU1/Calibri(0)/bx/n on input li
+ne 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  EU1/Calibri(0)/m/n --> EU1/Calibri(0)/bx/n on input lin
+e 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  EU1/Calibri(0)/m/it --> EU1/Calibri(0)/bx/it on input l
+ine 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  EU1/CourierNew(0)/m/n --> EU1/CourierNew(0)/bx/n on inp
+ut line 42.
+
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\translator\dicts\translator-basic-diction
+ary\translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\translator\dicts\translator-bibliography-
+dictionary\translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\translator\dicts\translator-environment-d
+ictionary\translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\translator\dicts\translator-months-dictio
+nary\translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\translator\dicts\translator-numbers-dicti
+onary\translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(C:\CTEX\MiKTeX\tex\latex\beamer\base\translator\dicts\translator-theorem-dicti
+onary\translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 42.
+
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/zavm/m/n on input line 42.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/lmm/m/it --> OML/zavm/m/it on input line 42.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> OMS/zavm/m/n on input line 42.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> OMX/iwona/m/n on input line 42.
+\c@lstlisting=\count341
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 42.
+
+(J:\home1\zhouy\projects\paper_multisi\pre\bin\presentation.nav)
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 42.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 6.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+File: fudan_logo_vector.eps Graphic file (type eps)
+
+<fudan_logo_vector.eps>
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 46.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 17.28pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/bx/n' will be
+(Font)              scaled to size 17.28pt on input line 46.
+Requested font "[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-te
+xt;+lnum;+pnum;" at 17.28pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Bold.ttf
+
+Overfull \hbox (2.0pt too wide) in paragraph at lines 46--46
+[][]  
+ []
+
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/bx/n' will be
+(Font)              scaled to size 10.95pt on input line 46.
+Requested font "[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-te
+xt;+lnum;+pnum;" at 10.95pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Bold.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 46.
+Requested font "[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-te
+xt;+lnum;+pnum;" at 14.4pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Bold.ttf
+LaTeX Font Info:    Try loading font information for OT1+zavm on input line 46.
+
+(C:\CTEX\MiKTeX\tex\latex\arev\ot1zavm.fd
+File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
+)
+Requested font "zavmr7t" at 14.4pt
+ -> zavmr7t
+Requested font "zavmr7t" at 10.0pt
+ -> zavmr7t
+Requested font "zavmr7t" at 7.0pt
+ -> zavmr7t
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 12.24008pt on input line 46.
+Requested font "zavmri7m" at 12.24008pt
+ -> zavmri7m
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 8.50006pt on input line 46.
+Requested font "zavmri7m" at 8.50006pt
+ -> zavmri7m
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 5.95004pt on input line 46.
+Requested font "zavmri7m" at 5.95004pt
+ -> zavmri7m
+LaTeX Font Info:    Try loading font information for OMS+zavm on input line 46.
+
+
+(C:\CTEX\MiKTeX\tex\latex\arev\omszavm.fd
+File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
+)
+Requested font "zavmr7y" at 14.4pt
+ -> zavmr7y
+Requested font "zavmr7y" at 10.0pt
+ -> zavmr7y
+Requested font "zavmr7y" at 7.0pt
+ -> zavmr7y
+LaTeX Font Info:    Try loading font information for OMX+iwona on input line 46
+.
+
+(C:\CTEX\MiKTeX\tex\latex\iwona\omxiwona.fd
+File: omxiwona.fd 2008/07/22 v0.995 font definition file for OMX/iwona (MW)
+)
+Requested font "ex-iwonar" at 14.4pt
+ -> ex-iwonar
+Requested font "ex-iwonar" at 10.0pt
+ -> ex-iwonar
+Requested font "ex-iwonar" at 7.0pt
+ -> ex-iwonar
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+Requested font "msam10" at 14.4pt
+ -> msam10
+Requested font "msam10" at 10.0pt
+ -> msam10
+Requested font "msam7" at 7.0pt
+ -> msam7
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Requested font "msbm10" at 14.4pt
+ -> msbm10
+Requested font "msbm10" at 10.0pt
+ -> msbm10
+Requested font "msbm7" at 7.0pt
+ -> msbm7
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 13.29564pt on input line 46.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 13.
+29564pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 9.2331pt on input line 46.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 9.2
+331pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 6.46317pt on input line 46.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 6.4
+6317pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 13.29564pt on input line 46.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 1
+3.29564pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 9.2331pt on input line 46.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 9
+.2331pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 6.46317pt on input line 46.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 6
+.46317pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 46.
+Requested font "[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-te
+xt;+lnum;+pnum;" at 12.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Bold.ttf
+Requested font "zavmr7t" at 12.0pt
+ -> zavmr7t
+Requested font "zavmr7t" at 8.0pt
+ -> zavmr7t
+Requested font "zavmr7t" at 6.0pt
+ -> zavmr7t
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 10.20007pt on input line 46.
+Requested font "zavmri7m" at 10.20007pt
+ -> zavmri7m
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 6.80005pt on input line 46.
+Requested font "zavmri7m" at 6.80005pt
+ -> zavmri7m
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 5.10004pt on input line 46.
+Requested font "zavmri7m" at 5.10004pt
+ -> zavmri7m
+Requested font "zavmr7y" at 12.0pt
+ -> zavmr7y
+Requested font "zavmr7y" at 8.0pt
+ -> zavmr7y
+Requested font "zavmr7y" at 6.0pt
+ -> zavmr7y
+Requested font "ex-iwonar" at 12.0pt
+ -> ex-iwonar
+Requested font "ex-iwonar" at 8.0pt
+ -> ex-iwonar
+Requested font "ex-iwonar" at 6.0pt
+ -> ex-iwonar
+Requested font "msam10" at 12.0pt
+ -> msam10
+Requested font "msam10" at 8.0pt
+ -> msam10
+Requested font "msam7" at 6.0pt
+ -> msam7
+Requested font "msbm10" at 12.0pt
+ -> msbm10
+Requested font "msbm10" at 8.0pt
+ -> msbm10
+Requested font "msbm7" at 6.0pt
+ -> msbm7
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 11.07971pt on input line 46.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 11.
+07971pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 7.38647pt on input line 46.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 7.3
+8647pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 5.53986pt on input line 46.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 5.5
+3986pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 11.07971pt on input line 46.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 1
+1.07971pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 7.38647pt on input line 46.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 7
+.38647pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 5.53986pt on input line 46.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 5
+.53986pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 4.0pt on input line 46.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 4.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+ [1
+
+]
+(J:\home1\zhouy\projects\paper_multisi\pre\bin\presentation.toc)
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 55.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 14.4pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 55.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 12.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 55.
+Requested font "[Carlito-Italic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-
+text;+lnum;+pnum;" at 12.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Italic.ttf
+ [2
+
+]
+File: images/structures.eps Graphic file (type eps)
+
+<images/structures.eps> [3
+
+]
+Requested font "zavmr7t" at 10.95pt
+ -> zavmr7t
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 9.30756pt on input line 106.
+Requested font "zavmri7m" at 9.30756pt
+ -> zavmri7m
+Requested font "zavmr7y" at 10.95pt
+ -> zavmr7y
+Requested font "ex-iwonar" at 10.95pt
+ -> ex-iwonar
+Requested font "msam10" at 10.95pt
+ -> msam10
+Requested font "msbm10" at 10.95pt
+ -> msbm10
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 10.11023pt on input line 106.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 10.
+11023pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 10.11023pt on input line 106.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 1
+0.11023pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 106.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 9.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+ [4
+
+] [5
+
+]
+LaTeX Font Info:    Try loading font information for U+dsss on input line 135.
+ (C:\CTEX\MiKTeX\tex\latex\dstroke\udsss.fd
+File: Udsss.fd 1995/08/01 v0.1 Double stroke sans serif font definitions
+)
+Requested font "dsss10" at 10.95pt
+ -> dsss10
+Requested font "dsss8" at 8.0pt
+ -> dsss8
+Requested font "dsss8" at 6.0pt
+ -> dsss8
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 135.
+Requested font "[Carlito-Italic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-
+text;+lnum;+pnum;" at 10.95pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Italic.ttf
+[6
+
+]
+LaTeX Font Info:    Font shape `EU1/Carlito(1)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 183.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+pnum;+onum;" at 10.95pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/bx/n' will be
+(Font)              scaled to size 10.00563pt on input line 183.
+Requested font "Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;" at 1
+0.00563pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/bx/n' will be
+(Font)              scaled to size 7.31006pt on input line 183.
+Requested font "Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;" at 7
+.31006pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/bx/n' will be
+(Font)              scaled to size 5.48254pt on input line 183.
+Requested font "Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;" at 5
+.48254pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 183.
+
+[7
+
+]
+LaTeX Font Info:    Font shape `EU1/Carlito(3)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 217.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+tnum;+lnum;" at 10.95pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+Requested font "[Carlito-Bold.ttf]/ICU:script=latn;language=DFLT;mapping=tex-te
+xt;+tnum;+lnum;" at 10.95pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Bold.ttf
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+tnum;+lnum;" at 8.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+tnum;+lnum;" at 6.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+ [8
+
+]
+Requested font "zavmr7t" at 5.0pt
+ -> zavmr7t
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 4.25003pt on input line 278.
+Requested font "zavmri7m" at 4.25003pt
+ -> zavmri7m
+Requested font "zavmr7y" at 5.0pt
+ -> zavmr7y
+Requested font "ex-iwonar" at 5.0pt
+ -> ex-iwonar
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/bx/n' will be
+(Font)              scaled to size 9.13757pt on input line 278.
+Requested font "Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;" at 9
+.13757pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/bx/n' will be
+(Font)              scaled to size 6.3963pt on input line 278.
+Requested font "Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;" at 6
+.3963pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/bx/n' will be
+(Font)              scaled to size 4.56879pt on input line 278.
+Requested font "Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;" at 4
+.56879pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 4.61655pt on input line 278.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 4.6
+1655pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+Requested font "msam5" at 5.0pt
+ -> msam5
+Requested font "msbm5" at 5.0pt
+ -> msbm5
+Requested font "dsss10" at 10.0pt
+ -> dsss10
+Requested font "dsss8" at 7.0pt
+ -> dsss8
+Requested font "dsss8" at 5.0pt
+ -> dsss8
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 4.61655pt on input line 278.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 4
+.61655pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 278.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 7.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+Requested font "zavmr7t" at 9.0pt
+ -> zavmr7t
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 7.65005pt on input line 278.
+Requested font "zavmri7m" at 7.65005pt
+ -> zavmri7m
+Requested font "zavmr7y" at 9.0pt
+ -> zavmr7y
+Requested font "ex-iwonar" at 9.0pt
+ -> ex-iwonar
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/bx/n' will be
+(Font)              scaled to size 8.22382pt on input line 278.
+Requested font "Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;" at 8
+.22382pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/n' will be
+(Font)              scaled to size 8.30978pt on input line 278.
+Requested font "Calibri/ICU:script=latn;language=DFLT;mapping=tex-text;" at 8.3
+0978pt
+ -> C:/WINDOWS/Fonts/calibri.ttf
+Requested font "msam10" at 9.0pt
+ -> msam10
+Requested font "msbm10" at 9.0pt
+ -> msbm10
+Requested font "dsss8" at 9.0pt
+ -> dsss8
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/m/it' will be
+(Font)              scaled to size 8.30978pt on input line 278.
+Requested font "Calibri/I/ICU:script=latn;language=DFLT;mapping=tex-text;" at 8
+.30978pt
+ -> C:/WINDOWS/Fonts/calibrii.ttf
+LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
+(Font)              scaled to size 9.17345pt on input line 278.
+Requested font "Courier New/ICU:script=latn;language=DFLT;" at 9.17345pt
+ -> C:/WINDOWS/Fonts/cour.ttf
+ [9
+
+]
+\@verb\sleepSort=\box91
+Requested font "Times New Roman" at 10.95pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/times.ttf
+\g_fontspec_family_Times New Roman_int=\count342
+Requested font "Times New Roman/B/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/B/B/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/I/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+Requested font "Times New Roman/I/I/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+Requested font "Times New Roman/BI/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/timesbi.ttf
+Requested font "Times New Roman/BI/BI/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/timesbi.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with
+. options [,].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Times New Roman/ICU:script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Times New Roman/ICU:script=latn;language=DFLT;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Times New Roman/B/ICU:script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Times New Roman/B/ICU:script=latn;language=DFLT;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Times New Roman/I/ICU:script=latn;language=DFLT;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Times New Roman/I/ICU:script=latn;language=DFLT;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Times New Roman/BI/ICU:script=latn;language=DFLT;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Times New Roman/BI/ICU:script=latn;language=DFLT;+smcp;"
+.................................................
+ (C:\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(C:\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+) [10
+
+]
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 324.
+Requested font "[Carlito-Regular.ttf]/ICU:script=latn;language=DFLT;mapping=tex
+-text;+lnum;+pnum;" at 8.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Regular.ttf
+LaTeX Font Info:    Font shape `EU1/Carlito(0)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 324.
+Requested font "[Carlito-Italic.ttf]/ICU:script=latn;language=DFLT;mapping=tex-
+text;+lnum;+pnum;" at 8.0pt
+ -> C:/CTEX/UserData/fonts/truetype/typoland/carlito/Carlito-Italic.ttf
+LaTeX Font Info:    Font shape `EU1/Calibri(0)/bx/n' will be
+(Font)              scaled to size 10.96509pt on input line 324.
+Requested font "Calibri/B/ICU:script=latn;language=DFLT;mapping=tex-text;" at 1
+0.96509pt
+ -> C:/WINDOWS/Fonts/calibrib.ttf
+Requested font "dsss12" at 12.0pt
+ -> dsss12
+ [11
+
+]
+LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
+(Font)              scaled to size 11.16101pt on input line 351.
+Requested font "Courier New/ICU:script=latn;language=DFLT;" at 11.16101pt
+ -> C:/WINDOWS/Fonts/cour.ttf
+ [12
+
+]
+(J:\home1\zhouy\projects\paper_multisi\pre\bin\presentation.toc) [13
+
+] [14
+
+]
+[15
+
+] [16
+
+] [17
+
+] [18
+
+] [19
+
+] [20
+
+]
+\@verb\sleepSort=\box92
+ [21
+
+] [22
+
+] [23
+
+]
+\tf@nav=\write6
+\tf@toc=\write7
+\tf@snm=\write8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
+
+(J:\home1\zhouy\projects\paper_multisi\pre\bin\presentation.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 409.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 409.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 37307 strings out of 430478
+ 740532 string characters out of 3191502
+ 923939 words of memory out of 3000000
+ 39658 multiletter control sequences out of 15000+200000
+ 27149 words of font info for 158 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 60i,16n,79p,891b,1678s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on presentation.pdf (23 pages).
