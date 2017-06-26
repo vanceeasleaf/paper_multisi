@@ -1,9 +1,11 @@
 TEX = latex
 
-pdf : paper.tex
+paper : paper.tex
 	which python
 	python run.py
-	 
+pre : presentation.tex 
+	python run_pre.py 
+		 
 .PHONY:clean
 
 clean : 

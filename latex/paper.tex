@@ -1,7 +1,7 @@
 % @Author: YangZhou
 % @Date:   2017-06-20 20:27:38
 % @Last Modified by:   YangZhou
-% @Last Modified time: 2017-06-26 15:07:24
+% @Last Modified time: 2017-06-26 19:49:43
 \documentclass[%
  reprint,
  amsmath,amssymb,
@@ -85,6 +85,7 @@ For convenience, we define the names of these structures as "nlxs", where n is a
       4l1  & $2 \times 1$             & P1      & 5.225 & 4.368 & -                                 \\
     \end{tabular}
   \end{ruledtabular}
+
 \end{table*}
 
 From TABLE.\ref{tab:table1}, by comparing the binding energy of the first principles calculation of Guo is with that of MD, and from the point of view of stacking, the double layer of silicon is found more likely to form a monolayer of small and medium buckling slip stacking structure. The simulation is doing by velocity Verlet integral algorithm with the timestep to be $1 fs$. The length of the system in the x direction is $10 - 100nm$, the transverse direction y is in periodic boundary condition with its simulated width to be 5 nm, and free boundary condition is applied in z direction. At the same time the outermost two ends of the x direction are fixed, close to witch a 3nm with Nose-Hoover bath is applied. The left and right ends of the temperature control at $310K$ and $290K$. The simulation is carried out by NVT for $0.4ns$, then control the temperature gradient for $10 ns$, and finally we statistics the data of the last $10ns$. By Fourier's law, the relationship between thermal conductivity and heat flux is
@@ -125,7 +126,6 @@ The thermal conductivity and anisotropy of multilayer silicon is shown in TABLE.
     The thermal conductivity and anisotropic ratio of different multi-layer silicene.}
   \begin{ruledtabular}
     \begin{tabular}{cccccccc}
-
             & $\kappa_{z,\infty}$
             & $\kappa_{a,\infty}$
             & $\chi$
@@ -143,6 +143,7 @@ The thermal conductivity and anisotropy of multilayer silicon is shown in TABLE.
       Si111 & 33.6                & 34.7 & 3.2\%  & Silicene & 11.4 & 11.6 & 1.7\%  \\
     \end{tabular}
   \end{ruledtabular}
+
 \end{table*}
 
 The influence of thickness change on the thermal transport properties was then investigated. Here we study mainly on multilayer silicon structure with 3-10 layers, whose  surface has typical Si (111) $2 \times 1$ surface reconstruction. In order to compare, we also calculated the thermal conductivity of Si on its (111) surface and the thermal conductivity of the monolayer. The magnitude of the anisotropy is also shown in TABLE.\ref{tab:table2}. From the FIG.\ref{fig:vl_length}(a), in the case of the medium thickness of the 3 - 6 layers, the anisotropy of the multilayer silicon with zigzag type is higher than that of armchair. And with the increase of the number of layers, the anisotropy decreases gradually. The reason is that the zigzag direction of the multilayer silicon surface is composed of a smooth zigzag atomic chain (as shown in FIG.\ref{fig:structures}). Compared with the bulk silicon structure, the heat conduction along the zigzag direction has no obvious effect on the heat flow. While along the armchair direction, the fluctuation of multilayer silicon surface is very large, the same is its obvious affection on heat flow. This difference is mainly caused by the surface reconstruction effect, and will decrease with the increase of the thickness of the silicon. In order to predict the relationship between the thermal conductivity and the thickness, we calculated the thermal conductivity of the 8-10 layers silicene with the $2 \times 1$ surface reconstruction. In order to compare, the thermal conductivity of the bulk Si (111) surface with no surface reconstruction (9 layers) and the thermal conductivity of the monolayer were calculated. As shown in TABLE.\ref{tab:table2}, with the increase of thickness, the anisotropy decreases gradually. When the thickness is up to 10 layers, the anisotropy of the thermal transport of multilayer silicon can be neglected (only about 1.5\%), which is consistent with the results of bulk silicon and single silicon. On the other hand, as shown in FIG.\ref{fig:vl_length}(b), at the same thickness, in the case of shorter length (10 - 50nm), the anisotropy is obvious. When the length is about 100nm, the anisotropy difference becomes very small, and the size effect of the thermal conductivity anisotropy is obvious. This is essentially due to the difference in the out-of-plane acoustic branch (LA), the transverse acoustic branch (TA), and the vertical plane acoustic phonon (ZA) of the multilayer silicon structures along different directions. However, with the increase of length, the ballistic transport is gradually saturated, and the difference of the heat transfer caused by the umklapp process is gradually reduced.
