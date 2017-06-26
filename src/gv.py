@@ -2,10 +2,11 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 14:39:58
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-21 16:28:27
-from aces.tools import *
-from aces.graph import fig, setLegend, pl, fit
+# @Last Modified time: 2017-06-26 21:44:53
+import aces.tools as tl
+from aces.graph import fig, setLegend, pl
 import numpy as np
+from aces.f import binmeanx
 text_style = dict(
     horizontalalignment='left',
     verticalalignment='center',
@@ -15,14 +16,14 @@ vs = '2l1,2l2,2l3,2lh,2lr,3l1,3l2,4l1,5l1,6l1,8l1,Silicene'.split(',')
 with fig('gv.eps'):
     fi, axes = pl.subplots(2, 6, sharex=True, sharey=True, figsize=(10, 7))
     for i, v in enumerate(vs):
-        print v
+        print(v)
         ax = axes[i // 6, i % 6]
         if v == "2lh":
             v = "2lhex"
         if v == "2lr":
             v = "2lrt3"
         file = v + "/0/secondorder/groupv/mesh.yaml"
-        data = parseyaml(file)
+        data = tl.parseyaml(file)
         freqs = []
         gvs = []
         for phonon in data['phonon']:
@@ -35,20 +36,12 @@ with fig('gv.eps'):
         freqs = np.array(freqs)
         gvs = np.array(gvs)
         gvs = np.abs(gvs)
-        ff = []
-        gg = []
         N = 40
         df = 20.0 / N
-        for i in range(N):
-            fil = (freqs > i * df) * (freqs < (i + 1) * df)
-            ff.append(i * df)
-            if fil.sum() == 0:
-                gg.append(np.array([0, 0, 0]))
-            else:
-                gg.append(gvs[fil].mean(axis=0))
-        gg = np.array(gg)
-        ax.plot(ff, gg[:, 0], color="k", lw=3, label=v + "z")
-        ax.plot(ff, gg[:, 1], color="r", ls="--", lw=3, label=v + "a")
+        x, y = binmeanx(np.c_[freqs, gvs[:, 0]], [0, 20], df)
+        ax.plot(x, y, color="k", lw=3, label=v + "z")
+        x, y = binmeanx(np.c_[freqs, gvs[:, 1]], [0, 20], df)
+        ax.plot(x, y, color="r", ls="--", lw=3, label=v + "a")
         # ax.text(.02,.8,"("+v+")",transform=ax.transAxes,**text_style)
         setLegend(ax, ncol=1, fontsize=10)
         ax.set_yticks([])

@@ -44,7 +44,8 @@
 \uselanguage{english}
 \frame{
 \maketitle \\
-{\color{white} \today}}
+{\color{white} \today}
+}
 
 
 \begin{frame}<beamer>
@@ -53,13 +54,12 @@
 \end{frame}
 
 
-\section{Blind Text}
+\section{Structures}
 \begin{frame}{Structures}
   \framesubtitle{Multilayer Silicenes}%
   \includegraphics[width=\textwidth]{images/structures}
 \end{frame}
 
-\section{Structure Characteristic}
 \begin{frame}{Structure Characteristic}
   \framesubtitle{Symmetry,Energy and Surface}%
   \begin{table}[!b]
@@ -97,24 +97,26 @@
   \end{table}
 
 \end{frame}
-\section{Effect of Buckling on TC}
+
+\section{Effect of Buckling $\&$ Layerson TC}
 \begin{frame}{Effect of Buckling on TC}
   \framesubtitle{$\kappa = \kappa_\infty (1-e^{-\frac{L}{L_c}})$}%
 
-  \begin{figure}[b]
-    \includegraphics[width=0.6\textwidth]{images/2l_length}
-    \caption{\label{fig:2l_length} The letter z/a in the legend mean the transport direction is zigzag/armchair.}
-  \end{figure}
+  \begin{columns}[onlytextwidth]
+    \tiny
+    \column{.5\textwidth}
+    The letter z/a in the legend mean the transport direction is zigzag/armchair.\\
+    \includegraphics[width=\textwidth]{images/2l_length}
+
+    \column{.5\textwidth}
+    TC along zigzag are larger than armchair while anisotropy decrese when layer increases.\\
+    \includegraphics[width=\textwidth]{images/vl_length}
+
+  \end{columns}
 
 \end{frame}
 
-\section{Effect of Layers on TC}
-\begin{frame}{Effect of Layers on TC}
-  \begin{figure}[b]
-    \includegraphics[width=0.5\textwidth]{images/vl_length}
-    \caption{\label{fig:vl_length} TC along zigzag are larger than armchair while anisotropy decrese when layer increases.}
-  \end{figure}
-\end{frame}
+
 
 \section{Anisotropy of Thermal Conductivity}
 \begin{frame}{Anisotropy of Thermal Conductivity}
@@ -153,6 +155,41 @@
     \includegraphics[width=0.8\textwidth]{images/bands}
     \caption{\label{fig:bands} $\Gamma(0.0, 0.0, 0.0)$, $X(0.5, 0.0, 0.0)$,  $Y(0.0, 0.5, 0.0)$}
   \end{figure}
+\end{frame}
+
+\section{Thermal Condcutivity Tensor}
+\begin{frame}{Thermal Condcutivity Tensor}
+  \framesubtitle{Heat Capacity $\&$ Group Velocity}%
+  $\kappa^{\alpha\beta} = \sum_{k \sigma}{c_{k \sigma}v^{\alpha}_{k \sigma}v^{\beta}_{k \sigma}\tau_{k \sigma}}$
+
+  \begin{columns}[onlytextwidth]
+    \column{.5\textwidth}
+    \includegraphics[width=\textwidth]{images/cv}
+    \column{.5\textwidth}
+    \includegraphics[width=\textwidth]{images/gv}
+  \end{columns}
+\end{frame}
+
+\section{Phonon Localization}
+\begin{frame}{Phonon Localization}
+  \framesubtitle{Participation Ratio $\&$ Transmission}%
+  \begin{columns}[onlytextwidth]
+    \column{.5\textwidth}
+    \includegraphics[width=\textwidth]{images/pr_direction}
+    \column{.5\textwidth}
+    \includegraphics[width=\textwidth]{images/transmission}
+  \end{columns}
+\end{frame}
+
+\section{Phonon Scattering}
+\begin{frame}{Phonon Scattering}
+  \framesubtitle{Lifetime $\&$ Gruneisen Parameter}%
+  \begin{columns}[onlytextwidth]
+    \column{.5\textwidth}
+    \includegraphics[width=\textwidth]{images/tau}
+    \column{.5\textwidth}
+    \includegraphics[width=\textwidth]{images/gruneisen}
+  \end{columns}
 \end{frame}
 
 \section{Conclusion}

@@ -1,7 +1,7 @@
 % @Author: YangZhou
 % @Date:   2017-06-20 20:27:38
 % @Last Modified by:   YangZhou
-% @Last Modified time: 2017-06-26 19:49:43
+% @Last Modified time: 2017-06-26 23:08:02
 \documentclass[%
  reprint,
  amsmath,amssymb,
@@ -155,8 +155,23 @@ The influence of thickness change on the thermal transport properties was then i
 
 In order to understand the relationship between the thermal conductivity and the length of the different structures and different layers, we calculated the phonon spectra of several typical structures. The $10 \times  10  \times  1$ multilayer structure is chosen. The selected high symmetry points are $\Gamma(0.0, 0.0, 0.0)$, $X(0.5, 0.0, 0.0)$,  $Y(0.0, 0.5, 0.0)$, Take points along $ X \rightarrow \Gamma \rightarrow Y$ as shown in FIG.\ref{fig:bands}.According to the supercell structure, the zigzag boundary corresponds to $ \Gamma \rightarrow X$ direction in the dispersion, and the armchair boundary corresponds to $\Gamma\rightarrow Y$ direction. According to the relationship between the phonon spectrum and heat conduction, in the two-dimensional nano system, the acoustic phonon plays a major role in heat transport. There are a total of 3 acoustic branches, including the LA mode along the transmission direction, TA along the transverse and ZA mode along the perpendicular direction. FIG.\ref{fig:bands}(a) and (b) corresponds to the calculated spectra of the bilayer structure 2l1 and 2l2. The group velocity of $\Gamma\rightarrow X$ acoustic branch in 2l1 is obviously larger than that of $\Gamma\rightarrow Y$, making zigzag direction more heat conducive , which also verifies the difference between 2l1z and 2l1a thermal conductivity and anisotropy. Accordingly, the three phonons in the two direction is almost the same as that in the 2l2, so the 2l2z and 2l2a are the least anisotropic structures with surface reconstruction. Comparing the two graphs, it can be found that all the group velocities of three phonons of 2l2 decrease. At the same time, the low frequency optical branch has the trend of moving down and couple with acoustic ones, which makes it less heat conducive, so that the 2l2 heat transport changes little with the length. The figure (c) (d) (e) is the dispersion of 3l1, 4l1, 6l1 $2 \times 1$ structure, all of whose three phonon group velocity are larger along zigzag than armchair. With the increase of layers, the optical branch participation gradually gathered in the high frequency area ($>15THz$), having almost no contribution to thermal conductivity while the vibration mode of the low frequency ($<5THz$) region is almost unchanged. On the other hand, with the increase of thickness, the acoustic velocity of armchair direction increases gradually, which prompts the decrease of anisotropic in multilayer silicon with the increase of layer number. Compared with phonon spectrum of the 6-layer structure(e), the difference between the 10 layers (f) is mainly the contribution of more atoms in the middle and high frequency ($>5THz$) region, which has little effect on the thermal conductivity.
 
+The thermal conductivity tensor could be calculated with
+
+\begin{equation}
+  \kappa^{\alpha\beta} = \sum_{k \sigma}{c_{k \sigma}v^{\alpha}_{k \sigma}v^{\beta}_{k \sigma}\tau_{k \sigma}} \label{eq:kappasum}
+\end{equation}
+
+Where $c_{k \sigma}$ means heat capacity of phonon mode $k \sigma$, $v^{\alpha}$ present for mode group velocity and $tau_{k \sigma}$ is phonon lifetime. The anisotropy could derive from these factors and it's worth finding the most important ones.
+
+Heat capacity has no contribution to anisotropy. The average heat capacity is shown in Fig.\ref{fig:cv} and it's obviously that there's no difference in the value of the two directions.
+
 \begin{figure}[b]
-  \includegraphics[width=0.48\textwidth]{images/gv}
+  \includegraphics[width=0.48\textwidth]{images/cv}
+  \caption{\label{fig:cv} (color online)Average Phonon heat capacity. The red bar present for the value of zigzag direction and yellow represent for that of armchiar direction. }
+\end{figure}
+
+\begin{figure}[b]
+  \includegraphics[width=0.48\textwidth]{images/gv}{}
   \caption{\label{fig:gv} (color online)Group Velocity.}
 \end{figure}
 
@@ -167,7 +182,7 @@ The anisotropy of phonon velocity has little contribution for the anisotropy of 
   \caption{\label{fig:pr_direction} (color online) The participation ratio.}
 \end{figure}
 
-The anisotropy of phonon participation ratio (PR) \cite{Allen1999} has low contribution to anicotropy of thermal conductivity of low layers but have large contribution to that of large layer structures. In previous work we have proven that  phonon participation ratio has obvious correlation with ballisic thermal transpotation in two dimentional materials\cite{Zhou2016}. The participation ratio of all the structures as shown in FIG.\ref{fig:pr_direction}.PR of both Silicene and 2l1 structures are exactly the same , suggesting that every phonon has been participated by all the atoms ,which means there's no localization. The others all present localization but that of 2l2 is isotropic while  PR is larger for armchair of 2l3 than that of zigag which is consist with their thermal conductivity.
+The anisotroy of group velocity derived from the localization of phonons along that directoin. The anisotropy of phonon participation ratio (PR) \cite{Allen1999} has low contribution to anicotropy of thermal conductivity of low layers but have large contribution to that of large layer structures. In previous work we have proven that  phonon participation ratio has obvious correlation with ballisic thermal transpotation in two dimentional materials\cite{Zhou2016}. The participation ratio of all the structures as shown in FIG.\ref{fig:pr_direction}.PR of both Silicene and 2l1 structures are exactly the same , suggesting that every phonon has been participated by all the atoms ,which means there's no localization. The others all present localization but that of 2l2 is isotropic while  PR is larger for armchair of 2l3 than that of zigag which is consist with their thermal conductivity.
 
 \begin{figure}[b]
   \includegraphics[width=0.48\textwidth]{images/transmission}
@@ -181,7 +196,7 @@ The localization means number of transport channels is reduced by some atoms.FIG
   \caption{\label{fig:tau} (color online)Lifetime.}
 \end{figure}
 
-The ballistic contribution of long wave phonons clearly indicate that localization dominant the anitropy of the structures, but more contribution should origin from phonon scattering. Considering three- phonon scattering, the phonon lifetime calculated with ShengBTE\cite{Li2014} are shown in FIG.\ref{fig:tau}. The lifetime of 3l2,4l1,5l1,6l1 along zigzag direction is larger while that of 2l1,2lh,3l1 has reverse relation. The result is also consist with the trends of thermal conductivity.
+The ballistic contribution of long wave phonons clearly indicate that localization dominant the anitropy of the structures, but more contribution should origin from phonon scattering. Considering three-phonon scattering, the phonon lifetime calculated with ShengBTE\cite{Li2014} are shown in FIG.\ref{fig:tau}. The lifetime of 3l2,4l1,5l1,6l1 along zigzag direction is larger while that of 2l1,2lh,3l1 has reverse relation. The result is also consist with the trends of thermal conductivity.
 
 \begin{figure}[b]
   \includegraphics[width=0.48\textwidth]{images/gruneisen}

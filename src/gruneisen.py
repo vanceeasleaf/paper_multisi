@@ -2,10 +2,8 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-23 21:21:33
+# @Last Modified time: 2017-06-26 21:53:59
 
-
-from aces.tools import exists, shell_exec
 
 from aces.graph import fig, setLegend, pl
 import numpy as np
