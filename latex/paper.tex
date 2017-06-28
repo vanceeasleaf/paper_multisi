@@ -231,7 +231,14 @@ Similar to the situation of participation ratio, transmission of both directions
   \caption{\label{fig:tau} (color online)Lifetime.}
 \end{figure}
 
-The ballistic contribution of long wave phonons clearly indicate that localization dominant the anitropy of the structures, but more contribution should origin from phonon scattering. Considering three-phonon scattering, the phonon lifetime calculated with ShengBTE\cite{Li2014} are shown in FIG.\ref{fig:tau}. The lifetime of 3l2,4l1,5l1,6l1 along zigzag direction is larger while that of 2l1,2lh,3l1 has reverse relation. The result is also consist with the trends of thermal conductivity.
+The ballistic contribution of long wave phonons clearly indicate that localization dominant the anitropy of the structures, but more contribution should origin from phonon scattering. We only considering three-phonon scattering,which consist of two types of scattering process, one of them is two phonons vanish and one phonon created and the other type is one phonon transform to two phonons. Both of them are possible to have result phonons with q point outside Brioulls boundry, and it must be fold back to Briulls zone to make the result physcical. So this process is called Umpack process( U process). And of cause there exist the situation that none of the three q points outside the Brioulls boundry, and the summation of the momentum conserves ( $q''=q+-q'$), which is called Normal process (N process) or momentum conservation process. If there's no U process the thermal conductivity could be as large as possible, so this process give the dominent contribution to thermal resistance. The phonon scattering rate could be obtained by Fermi-golden rule 
+
+\begin{equation}
+\end{equation}
+
+considering only the relaxation time approxmition(RTA). We then use iterative method to consider in cross influence of the phonon exitatioin, witch alway give lager lifetime compare to RTA and more close to the real value.
+
+the phonon lifetime calculated with ShengBTE\cite{Li2014} are shown in FIG.\ref{fig:tau}. The values are averaged for frequency bins to reduce complexity. The lifetime of 3l2,4l1,5l1,6l1 along zigzag direction is larger while that of 2l1,2lh,3l1 has reverse relation. The result is also consist with the trends of thermal conductivity.
 
 \begin{figure}[b]
   \includegraphics[width=0.48\textwidth]{images/gruneisen}
