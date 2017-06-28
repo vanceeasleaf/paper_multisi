@@ -1,7 +1,7 @@
 % @Author: YangZhou
 % @Date:   2017-06-20 20:27:38
 % @Last Modified by:   YangZhou
-% @Last Modified time: 2017-06-26 23:08:02
+% @Last Modified time: 2017-06-28 17:35:13
 \documentclass[%
  reprint,
  amsmath,amssymb,
@@ -39,7 +39,7 @@
 
 \section{INTRODUCTION}
 
-With the development of the existing silicon based circuit industry, the requirements of its integration and miniaturization make a lot of research work focusing on the application of the new two-dimensional materials. The theory and experiments in the last 10 years show that some new two-dimensional materials have many novel and excellent physical properties due to their structure and size. For example, the single atom layer $MoS_2$ has a suitable band gap which makes its field effect transistor switching ratio as large as $10^8$ \cite{Li2014}. Black phosphorus (BP) with thicknesses of several atomic layer have extremely high electron / hole mobility ($1000cm^2/Vs$) and leakage current modulation rates ($10^4$ times of graphene) and the field effect transistor of it has great potential in the application of nano electronic devices\cite{RadisavljevicB2011}. Due to the high thermal conductivity and electron mobility of graphene, it has great potential applications in the field of nano circuits\cite{Chen2008,Balandin2008}. However, materials prepared in the practical application is often multilayer structure to a few nanometers. Previous studies have focused on the weak Van der Waals interaction (vdW), and there is no surface reconstruction. There have been lots of studies on the electronic and thermal transport properties for this kind of typical layered structure and hetero structures, such as graphene\cite{Lindsay2011,Ni2012,Wang2011}, $MoS_2$\cite{Liu2015}, black phosphorus\cite{Zhang2015,Peng2015,Jain2015} two-dimensional layered structure. The existing preparation technology such as mechanical stripping, molecular beam epitaxy has difficult to produce nano layered structure for the material with strong interaction between layers, and the research of this kind of super thin nano materials has been very scarce. Recently, it has been found that monolayer and multilayer silicon material can be grown on some metal substrates by molecular beam epitaxy\cite{Fleurence2012,Meng2013,Vogt2012,DePadova2013,Feng2012}. The progress of these experiments ignited the upsurge the two dimensional nanomaterials with strong interaction between layers. In contrast to vdW, the two layer nano materials, which are represented by multi-layer silicon, exhibit special surface reconstructions which are different from the bulk surface\cite{Fleurence2012,Meng2013,Feng2012,Guo2013} and its physical and chemical properties are also very unique\cite{Guo2013,Guo2015}, indicating that there is new physics in this kind of ultra-thin nano materials.
+With the development of the existing silicon based circuit industry, the requirements of its integration and miniaturization make a lot of research work focusing on the application of the new two-dimensional materials. The theory and experiments in the last 10 years show that some new two-dimensional materials have many novel and excellent physical properties due to their structure and size. For example, the single atom layer $MoS_2$ has a suitable band gap which makes its field effect transistor switching ratio as large as $10^8$ \cite{Li,Yu2014}. Black phosphorus (BP) with thicknesses of several atomic layer have extremely high electron / hole mobility ($1000cm^2/Vs$) and leakage current modulation rates ($10^4$ times of graphene) and the field effect transistor of it has great potential in the application of nano electronic devices\cite{RadisavljevicB2011}. Due to the high thermal conductivity and electron mobility of graphene, it has great potential applications in the field of nano circuits\cite{Chen2008,Balandin2008}. However, materials prepared in the practical application is often multilayer structure to a few nanometers. Previous studies have focused on the weak Van der Waals interaction (vdW), and there is no surface reconstruction. There have been lots of studies on the electronic and thermal transport properties for this kind of typical layered structure and hetero structures, such as graphene\cite{Lindsay2011,Ni2012,Wang2011}, $MoS_2$\cite{Liu2015}, black phosphorus\cite{Zhang2015,Peng2015,Jain2015} two-dimensional layered structure. The existing preparation technology such as mechanical stripping, molecular beam epitaxy has difficult to produce nano layered structure for the material with strong interaction between layers, and the research of this kind of super thin nano materials has been very scarce. Recently, it has been found that monolayer and multilayer silicon material can be grown on some metal substrates by molecular beam epitaxy\cite{Fleurence2012,Meng2013,Vogt2012,DePadova2013,Feng2012}. The progress of these experiments ignited the upsurge the two dimensional nanomaterials with strong interaction between layers. In contrast to vdW, the two layer nano materials, which are represented by multi-layer silicon, exhibit special surface reconstructions which are different from the bulk surface\cite{Fleurence2012,Meng2013,Feng2012,Guo2013} and its physical and chemical properties are also very unique\cite{Guo2013,Guo2015}, indicating that there is new physics in this kind of ultra-thin nano materials.
 
 Silicon  is currently the only one system, from its monolayer to multilayer, and then to the bulk structure, that have been prepared by experiment. And it has rich and typical structure in the dimension of zero dimension, one dimension and three dimensions, which have laid a very good foundation for the study of two-dimensional scale multilayer silicon. The study of multilayer silicon is also helpful to understand the physical evolution of matter from low dimension to high dimension. In addition, the preparation process of silicon nano materials is mature and the raw materials are rich, and It has a broad application prospect in the fields of micro nano electronics, energy, information and other important fields in the future.
 
@@ -123,27 +123,30 @@ The thermal conductivity and anisotropy of multilayer silicon is shown in TABLE.
 
 \begin{table*}
   \caption{\label{tab:table2}
-    The thermal conductivity and anisotropic ratio of different multi-layer silicene.}
+    The thermal conductivity and anisotropic ratio of different multi-layer silicene.Along with the average heat capacity ($kJ/m^3/K$) of zigzag direction and armchair direction.}
   \begin{ruledtabular}
-    \begin{tabular}{cccccccc}
+    \begin{tabular}{cccccccccccc}
             & $\kappa_{z,\infty}$
             & $\kappa_{a,\infty}$
             & $\chi$
+            & $Cv_{z}$
+            & $Cv_{a}$
             &
             & $\kappa_{z,\infty}$
             & $\kappa_{a,\infty}$
-            & $\chi$                                                                \\
+            & $\chi$
+            & $Cv_{z}$
+            & $Cv_{a}$                                                                                              \\
       \hline
-      2l1   & 11.6                & 6.5  & 43.9\% & 2l2      & 1.5  & 1.2  & 20.0\% \\
-      2l3   & 5.0                 & 9.7  & 48.5\% & 2lr3     & 8.2  & 3.5  & 57.3\% \\
-      2lh   & 2.0                 & 2.5  & 20.0\% & 3l1      & 11.5 & 2.9  & 74.8\% \\
-      3l2   & 10.2                & 5.2  & 49.0\% & 4l1      & 10.2 & 3.4  & 66.7\% \\
-      5l1   & 11.7                & 5.7  & 51.3\% & 6l1      & 10.3 & 7.8  & 24.3\% \\
-      8l1   & 13.2                & 14.9 & 11.4\% & 10l1     & 13.3 & 13.5 & 1.5\%  \\
-      Si111 & 33.6                & 34.7 & 3.2\%  & Silicene & 11.4 & 11.6 & 1.7\%  \\
+      2l1   & 11.6                & 6.5  & 43.9\% & 165.8 & 166.7 & 2l2      & 1.5  & 1.2  & 20.0\% & 38.44 & 38.44 \\
+      2l3   & 5.0                 & 9.7  & 48.5\% & 23.38 & 23.38 & 2lr3     & 8.2  & 3.5  & 57.3\% & 10.15 & 10.15 \\
+      2lh   & 2.0                 & 2.5  & 20.0\% & 22.42 & 22.42 & 3l1      & 11.5 & 2.9  & 74.8\% & 52.22 & 52.46 \\
+      3l2   & 10.2                & 5.2  & 49.0\% & 55.56 & 55.84 & 4l1      & 10.2 & 3.4  & 66.7\% & 37.71 & 37.89 \\
+      5l1   & 11.7                & 5.7  & 51.3\% & 29.17 & 29.32 & 6l1      & 10.3 & 7.8  & 24.3\% & 23.73 & 23.86 \\
+      8l1   & 13.2                & 14.9 & 11.4\% & 17.26 & 17.36 & 10l1     & 13.3 & 13.5 & 1.5\%  & -     & -     \\
+      Si111 & 33.6                & 34.7 & 3.2\%  & -     & -     & Silicene & 11.4 & 11.6 & 1.7\%  & 606.4 & 613.4 \\
     \end{tabular}
   \end{ruledtabular}
-
 \end{table*}
 
 The influence of thickness change on the thermal transport properties was then investigated. Here we study mainly on multilayer silicon structure with 3-10 layers, whose  surface has typical Si (111) $2 \times 1$ surface reconstruction. In order to compare, we also calculated the thermal conductivity of Si on its (111) surface and the thermal conductivity of the monolayer. The magnitude of the anisotropy is also shown in TABLE.\ref{tab:table2}. From the FIG.\ref{fig:vl_length}(a), in the case of the medium thickness of the 3 - 6 layers, the anisotropy of the multilayer silicon with zigzag type is higher than that of armchair. And with the increase of the number of layers, the anisotropy decreases gradually. The reason is that the zigzag direction of the multilayer silicon surface is composed of a smooth zigzag atomic chain (as shown in FIG.\ref{fig:structures}). Compared with the bulk silicon structure, the heat conduction along the zigzag direction has no obvious effect on the heat flow. While along the armchair direction, the fluctuation of multilayer silicon surface is very large, the same is its obvious affection on heat flow. This difference is mainly caused by the surface reconstruction effect, and will decrease with the increase of the thickness of the silicon. In order to predict the relationship between the thermal conductivity and the thickness, we calculated the thermal conductivity of the 8-10 layers silicene with the $2 \times 1$ surface reconstruction. In order to compare, the thermal conductivity of the bulk Si (111) surface with no surface reconstruction (9 layers) and the thermal conductivity of the monolayer were calculated. As shown in TABLE.\ref{tab:table2}, with the increase of thickness, the anisotropy decreases gradually. When the thickness is up to 10 layers, the anisotropy of the thermal transport of multilayer silicon can be neglected (only about 1.5\%), which is consistent with the results of bulk silicon and single silicon. On the other hand, as shown in FIG.\ref{fig:vl_length}(b), at the same thickness, in the case of shorter length (10 - 50nm), the anisotropy is obvious. When the length is about 100nm, the anisotropy difference becomes very small, and the size effect of the thermal conductivity anisotropy is obvious. This is essentially due to the difference in the out-of-plane acoustic branch (LA), the transverse acoustic branch (TA), and the vertical plane acoustic phonon (ZA) of the multilayer silicon structures along different directions. However, with the increase of length, the ballistic transport is gradually saturated, and the difference of the heat transfer caused by the umklapp process is gradually reduced.
@@ -161,14 +164,16 @@ The thermal conductivity tensor could be calculated with
   \kappa^{\alpha\beta} = \sum_{k \sigma}{c_{k \sigma}v^{\alpha}_{k \sigma}v^{\beta}_{k \sigma}\tau_{k \sigma}} \label{eq:kappasum}
 \end{equation}
 
-Where $c_{k \sigma}$ means heat capacity of phonon mode $k \sigma$, $v^{\alpha}$ present for mode group velocity and $tau_{k \sigma}$ is phonon lifetime. The anisotropy could derive from these factors and it's worth finding the most important ones.
+Where $c_{k \sigma}$ means heat capacity of phonon mode $k \sigma$, $v^{\alpha}$ present for mode group velocity and $\tau_{k \sigma}$ is phonon lifetime. The anisotropy could derive from these factors and it's worth finding the most important ones.
 
-Heat capacity has no contribution to anisotropy. The average heat capacity is shown in Fig.\ref{fig:cv} and it's obviously that there's no difference in the value of the two directions.
+Heat capacity has large influence between the structures but has no contribution to anisotropy. We select all the phonons along  $\Gamma\rightarrow X$ , calculate each of their heat capacity with
 
-\begin{figure}[b]
-  \includegraphics[width=0.48\textwidth]{images/cv}
-  \caption{\label{fig:cv} (color online)Average Phonon heat capacity. The red bar present for the value of zigzag direction and yellow represent for that of armchiar direction. }
-\end{figure}
+\begin{equation}
+  c_{k \sigma}=\frac{\hbar \omega_{k \sigma} }{V} \frac{\partial f(\omega_{k \sigma},T)}{\partial T}
+\end{equation}
+
+Where $ f(\omega,T)=1/(exp(\frac{\hbar \omega}{k_b T})-1)$ is Bose-Einstein distribution function. The values are averaged to get $Cv_z$ while those of phonons along $\Gamma\rightarrow Y$ are called $Cv_a$. The average heat capacity of the structures are shown in Table.\ref{tab:table2} . Large difference could be found between the $Cv$ of the structures. The lowest value is $10.15 kJ/m^3/K$ of 2lr while the highest value of Silicene could reach $606.4 kJ/m^3/K$, and this could lead to large difference between their thermal conductivity. There's no obvious trends when the layer increases but Silicene and 2l1 have pretty large value than the others and this has some relation to their low thickness.  Almost no difference could be found in the value along zigzag direction and armchair direction, even if $\omega_{k \sigma}$ has large deviation between the direction as shown in Fig.\ref{fig:bands}. This is due to the insensitivity of heat capacity to frequency when the frequency is low and the value is ignorable when frequency is relatively high. That means when considering only acoustic phonons the heat capacity is close to constant.
+
 
 \begin{figure}[b]
   \includegraphics[width=0.48\textwidth]{images/gv}{}
@@ -182,14 +187,44 @@ The anisotropy of phonon velocity has little contribution for the anisotropy of 
   \caption{\label{fig:pr_direction} (color online) The participation ratio.}
 \end{figure}
 
-The anisotroy of group velocity derived from the localization of phonons along that directoin. The anisotropy of phonon participation ratio (PR) \cite{Allen1999} has low contribution to anicotropy of thermal conductivity of low layers but have large contribution to that of large layer structures. In previous work we have proven that  phonon participation ratio has obvious correlation with ballisic thermal transpotation in two dimentional materials\cite{Zhou2016}. The participation ratio of all the structures as shown in FIG.\ref{fig:pr_direction}.PR of both Silicene and 2l1 structures are exactly the same , suggesting that every phonon has been participated by all the atoms ,which means there's no localization. The others all present localization but that of 2l2 is isotropic while  PR is larger for armchair of 2l3 than that of zigag which is consist with their thermal conductivity.
+The different localization situation  along each direction determines the anisotroy of group velocity  along that direction. To qualitatively measure the physical mechanism of phonon localization we carried out a vibrational eigenmode analysis. Mode localization can be quantitatively characterized by the phonon participation ratio $P_{k\sigma}$  \cite{Allen1999}for each eigen-mode $k\sigma$ as
+
+\begin{equation}
+  P_{k\sigma}= \frac{1}{N \sum_{i}
+    {(\sum_\alpha{\epsilon^{i\alpha}_{k\sigma}
+        \epsilon^{*i\alpha}_{k\sigma}})^2}}
+\end{equation}
+
+where N is the atom number and $\epsilon^{i\alpha}_{k\sigma}$ is the eigenvector component of mode $k\sigma$ for the i-th atom and $\alpha$ direction. The value of participation ratio is between 0 and 1 which measures the fraction of atoms participating a given phonon mode. If the mode is localized then its trends with N is O(1/N) while delocalized modes with O(1).
+
+The anisotropy of phonon participation ratio has low contribution to anicotropy of thermal conductivity of low layers but have large contribution to that of large layer structures. In previous work we have proven that phonon participation ratio has obvious correlation with ballisic thermal transpotation in two dimentional materials\cite{Zhou2016}. Fig.\ref{fig:pr_direction} shows average phonon participation ratio for each eigenmode $k\sigma$ in various structures. The participation ratio of similar frequency has large difference and we select the phonons along zigzag direction and  average their participation ratio to obtain the solid black curve in Fig.\ref{fig:pr_direction} while the same is done to obtain the dash red curve for armchair direction. All the phonons of Silicene , 2l1 and some low frequency phonons of 2l2 exibit delocalized nature,suggesting that every phonon has been participated by all the atoms, which is due to the perfect bonding of them without dangling bonds. Different surface situation affects the localization a a lot. 2l3 and 2lr3 exhibit large localization and anisotropy even for very low phonons, this is due to their unique surface where the buckling atoms form parallel lines, between them existing large distance,see Fig.\ref{fig:structures}. With the increasement of thickness, low frequency region remain delocalized while the participation ratio of intermediate frequency  decreases. For 6l1 the average participation ratio could drop down to around 0.4, and that of 8l1 even to 0.3. But the absolute number of atoms that participate in the mode $P_{k\sigma} \cdot N$ does not decrease and the number of transmission chanels in fact increase so thermal conductivity increase.
 
 \begin{figure}[b]
   \includegraphics[width=0.48\textwidth]{images/transmission}
   \caption{\label{fig:transmission} (color online)The anisotropic transmission function of the structures. The structure identifiers are labeled at top-left of each subplot. the transmission along zigzag direction is ploted as black curve while that of armchair direction is filled. The y range of each subplot is normalized to the max value within the graph.}
 \end{figure}
 
-The localization means number of transport channels is reduced by some atoms.FIG.\ref{fig:transmission} shows the phonon transmission function along both zigzag and armchair directions. Similar to the situation of participation ratio, transmission of Silicene,2l1 are close. Especially that of 2l2 areexactly the same, which is due to the structure symmetry of it. The anistropy of the transmission are clearly seen in other structure,such as 2l3,3l1,3l2,4l1, where transmissioin of 2l3 is larger in armchair direction than zigzag,while the others has smaller value in armchair. The localization  contributes a lot to ther anisotropy becuase these trends are silimar to their thermal conductivity.
+To quatitily study the number of transmission channels we use Non-Equalibrium Green Function (NEGF)\cite{Mingo2003} to calculate the transmission function of the struction along zigzag and armchair direction.
+The transmission function can be expressed as
+\begin{equation}
+  \begin{split}
+    \Theta(\omega)= Tr(
+    \mathbf{\widetilde{k}}_{a\alpha}
+    Im(\mathbf{g}_{\alpha\alpha})
+    \mathbf{\widetilde{k}}_{\alpha a}
+    \mathbf{G}_{a b}^*\\
+    \mathbf{\widetilde{k}}_{b\beta}
+    Im(\mathbf{g}_{\beta\beta})
+    \mathbf{\widetilde{k}}_{\beta b}
+    \mathbf{G}_{b a}
+    )
+  \end{split}
+\end{equation}
+where $\mathbf{\widetilde{k}}_{a\alpha}$,$\mathbf{\widetilde{k}}_{\alpha a}$ represents for the interaction between left lead and center region and its transposition,  $\mathbf{\widetilde{k}}_{b\beta}$,$\mathbf{\widetilde{k}}_{\beta b}$ the interaction between center and right lead. $\mathbf{g}$ and $\mathbf{G}$ the retarded Green's function of the leads and center rigion.$Tr$ and $Im$ means trace and imaginary function. Transmission function represents for the number of channels of a given frenquency. The more chanels means larger capability of thermal transportation. The value is substracted by the cross area of the transportation direction to eliminate the effect of lattice constants.
+
+FIG.\ref{fig:transmission} shows the phonon transmission function along both zigzag and armchair directions. The y-axis value of each panel is not the same so the transmission is given here only to explain the anisotropy of each strcutre. The steps in the curves are  characterisic of perfection of the structure. Defects like isotope or grain boundary could lead to disapearance of these step.The transmission of Silicene and 2l1 are perfectly stepwise because of the perfect bonding and the absence of disorder.
+
+Similar to the situation of participation ratio, transmission of both directions of Silicene,2l1 are close.Especially that of 2l2 are exactly the same, which is due to the structure symmetry of it.The anistropy of the transmission are clearly found in other structure,such as 2l3,3l1,3l2,4l1, where transmissioin of 2l3 is larger in armchair direction than zigzag,while the others has smaller value in armchair. This trends is quite consist with that of the thermal conducivity so transmission indeed has large effection on the difference of thermal conductivity. The transmission along zigzag direction has a large peak at around 5THz in the structure 3l1,3l2,4l1,5l1,6l1,8l1,while along armchair direction the peak vanish and this may contribute a lot to the anisotropy of the thermal transportation.
 
 \begin{figure}[b]
   \includegraphics[width=0.48\textwidth]{images/tau}

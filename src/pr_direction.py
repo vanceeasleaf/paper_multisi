@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 16:26:09
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-23 21:59:58
+# @Last Modified time: 2017-06-28 16:11:57
 
 from aces.graph import fig, setLegend, pl
 from aces.algorithm.kpoints import filter_along_direction as fad
@@ -37,7 +37,7 @@ with fig('pr_direction.eps'):
                     phi = np.pi / 2.0
                 fil = fad(y, phi, dth)
                 q = y[fil][:, [3, 4]]
-                x, y = binmeanx(q, [0, 4.5], .5)
+                x, y = binmeanx(q, [0, 4.9], .5)
                 mfc = [colors[0], 'w'][s == 'a']
                 ls = ['-', '-.'][s == 'a']
                 ax.plot(x, y, ls=ls,
