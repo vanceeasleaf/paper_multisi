@@ -1,7 +1,7 @@
 % @Author: YangZhou
 % @Date:   2017-06-20 20:27:38
 % @Last Modified by:   YangZhou
-% @Last Modified time: 2017-06-28 17:35:13
+% @Last Modified time: 2017-08-08 13:47:15
 \documentclass[%
  reprint,
  amsmath,amssymb,
@@ -14,18 +14,18 @@
 \newcommand{\angstrom}{\mbox{\normalfont\AA}}
 \begin{document}
 \title{Anisotropic in-plane thermal conductivity observed in multilayer silicene}
-\author{Yang Zhou${}^{1,2}$}
-\author{Chao-Yu Chen${}^{3}$}
-\author{Zhi-Xin Guo${}^{3}$}
+\author{Yang Zhou${}^{1,3}$}
+\author{Chao-Yu Chen${}^{2}$}
+\author{Zhi-Xin Guo${}^{2}$}
 \email{zxguo08@hotmail.com}
-\author{Shi-You Chen}
-\author{Hong-Jun Xiang}
-\author{Xin-Gao Gong${}^{1,2}$}
+\author{Shi-You Chen${}^{1}$}
+\author{Hong-Jun Xiang${}^{1}$}
+\author{Xin-Gao Gong${}^{1,3}$}
 \email{xggong@fudan.edu.cn}
 \affiliation{
   ${}^1$Key Laboratory for Computational Physical Science (Ministry of Education), State Key Laboratory of Surface Physics and Department of Physics, Fudan University, Shanghai 200433, China\\
-  ${}^2$Collaborative Innovation Center of Advanced Microstructures, Nanjing 210093, Jiangsu, China\\
-  ${}^3$Department of Physics, Xiangtan University, Xiangtan 411105, China
+  ${}^2$Department of Physics, Xiangtan University, Xiangtan 411105, China\\
+  ${}^3$Collaborative Innovation Center of Advanced Microstructures, Nanjing 210093, Jiangsu, China
 }
 \begin{abstract}
   By means of non-equilibrium molecular dynamics simulation, we systematically study the thermal transportation properties of different types of multilayer silicon. It is found that the thermal transport properties of multilayer silicon structures have significant surface effect and size effect in thickness direction. Surface reconstruction affects heat transport very well , the thermal conductivity of bilayer silicon with different reconstruction can reach up to $11.6 W/mK$, and can be as low as $1.2 W/mK$ and the anisotropy can be as high as $57.3\%$.With the increase of the number of layers, the thermal conductivity of the zigzag direction changed little, but the thermal conductivity increased significantly in the armchair direction, and the anisotropy of thermal conductivity decreased which is due to the smaller affection in more layer structure. This work could be helpful in the field of heat management, thermoelectric applications involving silicon and other multilayer nano materials in the future.
@@ -39,7 +39,7 @@
 
 \section{INTRODUCTION}
 
-With the development of the existing silicon based circuit industry, the requirements of its integration and miniaturization make a lot of research work focusing on the application of the new two-dimensional materials. The theory and experiments in the last 10 years show that some new two-dimensional materials have many novel and excellent physical properties due to their structure and size. For example, the single atom layer $MoS_2$ has a suitable band gap which makes its field effect transistor switching ratio as large as $10^8$ \cite{Li,Yu2014}. Black phosphorus (BP) with thicknesses of several atomic layer have extremely high electron / hole mobility ($1000cm^2/Vs$) and leakage current modulation rates ($10^4$ times of graphene) and the field effect transistor of it has great potential in the application of nano electronic devices\cite{RadisavljevicB2011}. Due to the high thermal conductivity and electron mobility of graphene, it has great potential applications in the field of nano circuits\cite{Chen2008,Balandin2008}. However, materials prepared in the practical application is often multilayer structure to a few nanometers. Previous studies have focused on the weak Van der Waals interaction (vdW), and there is no surface reconstruction. There have been lots of studies on the electronic and thermal transport properties for this kind of typical layered structure and hetero structures, such as graphene\cite{Lindsay2011,Ni2012,Wang2011}, $MoS_2$\cite{Liu2015}, black phosphorus\cite{Zhang2015,Peng2015,Jain2015} two-dimensional layered structure. The existing preparation technology such as mechanical stripping, molecular beam epitaxy has difficult to produce nano layered structure for the material with strong interaction between layers, and the research of this kind of super thin nano materials has been very scarce. Recently, it has been found that monolayer and multilayer silicon material can be grown on some metal substrates by molecular beam epitaxy\cite{Fleurence2012,Meng2013,Vogt2012,DePadova2013,Feng2012}. The progress of these experiments ignited the upsurge the two dimensional nanomaterials with strong interaction between layers. In contrast to vdW, the two layer nano materials, which are represented by multi-layer silicon, exhibit special surface reconstructions which are different from the bulk surface\cite{Fleurence2012,Meng2013,Feng2012,Guo2013} and its physical and chemical properties are also very unique\cite{Guo2013,Guo2015}, indicating that there is new physics in this kind of ultra-thin nano materials.
+With the development of the existing silicon based circuit industry, the requirements of its integration and miniaturization make a lot of research work focusing on the application of the new two-dimensional materials. The theory and experiments in the last 10 years show that some new two-dimensional materials have many novel and excellent physical properties due to their structure and size. For example, the single atom layer $MoS_2$ has a suitable band gap which makes its field effect transistor switching ratio as large as $10^8$ \cite{Li_Yu2014}. Black phosphorus (BP) with thicknesses of several atomic layer have extremely high electron / hole mobility ($1000cm^2/Vs$) and leakage current modulation rates ($10^4$ times of graphene) and the field effect transistor of it has great potential in the application of nano electronic devices\cite{RadisavljevicB2011}. Due to the high thermal conductivity and electron mobility of graphene, it has great potential applications in the field of nano circuits\cite{Chen2008,Balandin2008}. However, materials prepared in the practical application is often multilayer structure to a few nanometers. Previous studies have focused on the weak Van der Waals interaction (vdW), and there is no surface reconstruction. There have been lots of studies on the electronic and thermal transport properties for this kind of typical layered structure and hetero structures, such as graphene\cite{Lindsay2011,Ni2012,Wang2011}, $MoS_2$\cite{Liu2015}, black phosphorus\cite{Zhang2015,Peng2015,Jain2015} two-dimensional layered structure. The existing preparation technology such as mechanical stripping, molecular beam epitaxy has difficult to produce nano layered structure for the material with strong interaction between layers, and the research of this kind of super thin nano materials has been very scarce. Recently, it has been found that monolayer and multilayer silicon material can be grown on some metal substrates by molecular beam epitaxy\cite{Fleurence2012,Meng2013,Vogt2012,DePadova2013,Feng2012}. The progress of these experiments ignited the upsurge the two dimensional nanomaterials with strong interaction between layers. In contrast to vdW, the two layer nano materials, which are represented by multi-layer silicon, exhibit special surface reconstructions which are different from the bulk surface\cite{Fleurence2012,Meng2013,Feng2012,Guo2013} and its physical and chemical properties are also very unique\cite{Guo2013,Guo2015}, indicating that there is new physics in this kind of ultra-thin nano materials.
 
 Silicon  is currently the only one system, from its monolayer to multilayer, and then to the bulk structure, that have been prepared by experiment. And it has rich and typical structure in the dimension of zero dimension, one dimension and three dimensions, which have laid a very good foundation for the study of two-dimensional scale multilayer silicon. The study of multilayer silicon is also helpful to understand the physical evolution of matter from low dimension to high dimension. In addition, the preparation process of silicon nano materials is mature and the raw materials are rich, and It has a broad application prospect in the fields of micro nano electronics, energy, information and other important fields in the future.
 
@@ -231,30 +231,25 @@ Similar to the situation of participation ratio, transmission of both directions
   \caption{\label{fig:tau} (color online)Lifetime.}
 \end{figure}
 
-The ballistic contribution of long wave phonons clearly indicate that localization dominant the anitropy of the structures, but more contribution should origin from phonon scattering. We only considering three-phonon scattering,which consist of two types of scattering process, one of them is two phonons vanish and one phonon created and the other type is one phonon transform to two phonons. Both of them are possible to have result phonons with q point outside Brioulls boundry, and it must be fold back to Briulls zone to make the result physcical. So this process is called Umpack process( U process). And of cause there exist the situation that none of the three q points outside the Brioulls boundry, and the summation of the momentum conserves ( $q''=q+-q'$), which is called Normal process (N process) or momentum conservation process. If there's no U process the thermal conductivity could be as large as possible, so this process give the dominent contribution to thermal resistance. The phonon scattering rate could be obtained by Fermi-golden rule 
+The ballistic contribution of long wave phonons clearly indicate that localization dominant the anitropy of the structures, but more contribution should origin from phonon scattering. We only considering three-phonon scattering,which consist of two types of scattering process, one of them is two phonons vanish and one phonon created and the other type is one phonon transform to two phonons. Both of them are possible to have result phonons with q point outside Brioulls boundry, and it must be fold back to Briulls zone to make the result physcical( $\mathbf{q''}=\mathbf{q} \pm \mathbf{q'}+\mathbf{G}$). So this process is called Umpack process( U process). And of cause there exist the situation that none of the three q points outside the Brioulls boundry, and the summation of the momentum conserves ( $\mathbf{q''}=\mathbf{q} \pm \mathbf{q'}$), which is called Normal process (N process) or momentum conservation process. If there's no U process the thermal conductivity could be as large as possible, so this process give the dominent contribution to thermal resistance. The phonon scattering rate could be obtained by Fermi-golden rule\cite{Li2014}.considering only the relaxation time approxmition(RTA). We then use iterative method to consider in cross influence of the phonon exitatioin, witch always give lager lifetime compare to RTA and more close to the real value.
 
-\begin{equation}
-\end{equation}
-
-considering only the relaxation time approxmition(RTA). We then use iterative method to consider in cross influence of the phonon exitatioin, witch always give lager lifetime compare to RTA and more close to the real value.
-
-the phonon lifetime calculated with ShengBTE\cite{Li2014} are shown in FIG.\ref{fig:tau}. The values are averaged for frequency bins to reduce complexity. The lifetime of 3l2,4l1,5l1,6l1 along zigzag direction is larger while that of 2l1,2lh,3l1 has reverse relation. The result is also consist with the trends of thermal conductivity. The low frequency acoustic phonons exhibit much larger lifetime, indicating they contribute large part of thermal conducitivity. The relation between acoustic phonon lifetime and frequency could be expressed as $\tau\=k \omega^{-2}$ and diverge when omega tends to zero, witch is a common feature of low dimensional structures. The coefficient k for both direction are displayed in Table.3. The degree of divergence exhibit large anisotropy for the structures. However the difference of lifetime is pretty small when frequency is relatively high. So the anisotropy of low frequency phonon contribute the main part of anisotropy in phonon lifetime. 
+The phonon lifetime calculated with ShengBTE\cite{Li2014} are shown in FIG.\ref{fig:tau}. The values are averaged for frequency bins to reduce complexity. The lifetime of 3l2,4l1,5l1,6l1 along zigzag direction is larger while that of 2l1,2lh,3l1 has reverse relation. The result is also consist with the trends of thermal conductivity. The low frequency acoustic phonons exhibit much larger lifetime, indicating they contribute large part of thermal conducitivity. The relation between acoustic phonon lifetime and frequency could be expressed as $\tau=k \omega^{-2}$ and diverge when omega tends to zero, witch is a common feature of low dimensional structures. The coefficient k for both direction are displayed in Table.3. The degree of divergence exhibit large anisotropy for the structures. However the difference of lifetime is pretty small when frequency is relatively high. So the anisotropy of low frequency phonon contribute the main part of anisotropy in phonon lifetime.
 
 \begin{figure}[b]
   \includegraphics[width=0.48\textwidth]{images/gruneisen}
   \caption{\label{fig:gruneisen} (color online)Gruneisen parameters.}
 \end{figure}
 
-The anisotropy of phonon lifetime is due to the anisotropy of anharmonic effect. To quatitily check the anharmonic effect we calculate the Gruneisen parameters with 
+The anisotropy of phonon lifetime is due to the anisotropy of anharmonic effect. To quatitily check the anharmonic effect we calculate the Gruneisen parameters with
 
 \begin{equation}
-
+  \gamma_{k \sigma}=- \frac{V}{\omega_{k \sigma}} \frac{\partial \omega_{k \sigma}}{\partial V}
 \end{equation}
 
-where V is the volumn of the unicell and $\omega$ is the phonon frequency. The shift of $\omega$ with V is due to the divirience from paraodic potential which reprensents for the harmonic situation. When the potenial is harmonic , all the Gruneisen parameters will vanish.
-The Gruneisen parameters of all the structures are shown in FIG.\ref{fig:gruneisen}. The larger the anharmonic effect the smaller the scattering lifetime of the phonons. The most anharmonic phonons exist in the low frequency region and consist with previous result of phonon lifetime. The large difference between zigzag value and armchair could explain the anisotropy of phonon scattering. 
+where V is the volumn of the unicell and $\omega_{k \sigma}$ is the phonon frequency. The shift of $\omega_{k \sigma}$ with V is due to the divirience from paraodic potential which reprensents for the harmonic situation. When the potenial is harmonic , all the Gruneisen parameters will vanish.
+The Gruneisen parameters of all the structures are shown in FIG.\ref{fig:gruneisen}. The larger the anharmonic effect the smaller the scattering lifetime of the phonons. The most anharmonic phonons exist in the low frequency region and consist with previous result of phonon lifetime. The large difference between zigzag value and armchair could explain the anisotropy of phonon scattering.
 
-To obtain a clear connection between  the surface characteristic we also statistic the force constants of different position of the structures. 
+To obtain a clear connection between  the surface characteristic we also statistic the force constants of different position of the structures.
 
 
 
