@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-23 21:24:07
+# @Last Modified time: 2017-10-29 18:25:16
 
 
 from aces.graph import fig, setLegend, pl
@@ -16,14 +16,12 @@ import matplotlib
 matplotlib.rcParams['ytick.minor.width'] = 1.5
 matplotlib.rcParams['ytick.minor.size'] = 3
 with fig('tau.eps'):
-    fi, axes = pl.subplots(3, 3, sharex=True, sharey=True, figsize=(10, 10))
-    for j in range(3):
+    fi, axes = pl.subplots(2, 3, sharex=True, sharey=True, figsize=(10, 6))
+    for j in range(2):
         if j == 0:
-            vs = "2l1,2l2,2lhex".split(',')
+            vs = "2l1,2lhex,3l1".split(',')
         if j == 1:
-            vs = "3l1,3l2,4l1".split(',')
-        if j == 2:
-            vs = "5l1,6l1,Silicene".split(',')
+            vs = "4l1,5l1,6l1".split(',')
         for i, v in enumerate(vs):
             for s in ['z', 'a']:
                 ax = axes[j, i]
@@ -47,7 +45,7 @@ with fig('tau.eps'):
                     tau_full[fil].flatten()]
                 q = np.nan_to_num(q)
 
-                x, y = binmeanx(q, [0.0, 5.0], dx=0.5)
+                x, y = binmeanx(q, [0.0, 20.0], dx=1.5)
                 mfc = [colors[i], 'w'][s == 'a']
                 ls = ['-', '-.'][s == 'a']
                 ax.semilogy(
@@ -60,8 +58,8 @@ with fig('tau.eps'):
                     markerfacecolor=mfc,
                     color=colors[i],
                     label=v + s)
-                ax.set_xlim([0, 4.55])
-                ax.set_ylim([1e-0, 1e3])
+                ax.set_xlim([0, 20.55])
+                ax.set_ylim([1e-1, 2e2])
                 setLegend(ax, fontsize=10)
     fi.text(0.5, 0.04, 'Phonon Frequency (THz)', ha='center')
     fi.text(

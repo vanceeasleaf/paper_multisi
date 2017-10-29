@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 16:26:09
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-06-28 16:11:57
+# @Last Modified time: 2017-10-28 16:07:45
 
 from aces.graph import fig, setLegend, pl
 from aces.algorithm.kpoints import filter_along_direction as fad
@@ -10,16 +10,16 @@ import numpy as np
 from aces.f import binmeanx
 text_style = dict(horizontalalignment='left', verticalalignment='center',
                   fontsize=12, fontdict={'family': 'serif'})
-vs = '2l1  2l2  2l3  2lh  2lr3  3l1  3l2  4l1  5l1  6l1  8l1  Silicene'.split()
+vs = '2l1  2lh  3l1   4l1  5l1  6l1'.split()
 markers = ['^', 's', "8"]
 colors = "k,r,b,g,purple".split(',')
 with fig('pr_direction.eps'):
 
     fi, axes = pl.subplots(
-        3, 4, sharex=True, sharey=True, figsize=(10, 10))
+        2, 3, sharex=True, sharey=True, figsize=(10, 6))
     print(vs)
-    for j in range(3):
-        vv = np.array(vs).reshape([3, 4])[j]
+    for j in range(2):
+        vv = np.array(vs).reshape([2, 3])[j]
         for i, v in enumerate(vv):
             for s in ['z', 'a']:
                 ax = axes[j, i]
@@ -37,7 +37,7 @@ with fig('pr_direction.eps'):
                     phi = np.pi / 2.0
                 fil = fad(y, phi, dth)
                 q = y[fil][:, [3, 4]]
-                x, y = binmeanx(q, [0, 4.9], .5)
+                x, y = binmeanx(q, [0, 20.9], 1.5)
                 mfc = [colors[0], 'w'][s == 'a']
                 ls = ['-', '-.'][s == 'a']
                 ax.plot(x, y, ls=ls,
@@ -46,7 +46,7 @@ with fig('pr_direction.eps'):
                         markeredgecolor=colors[0],
                         markerfacecolor=mfc,
                         color=colors[0], label=v + s)
-                ax.set_xlim([0, 4.9])
+                ax.set_xlim([0, 20.9])
                 ax.set_ylim([0, 1.2])
                 setLegend(ax, fontsize=10)
     fi.text(0.5, 0.04, 'Phonon Frequency(THz)', ha='center')
