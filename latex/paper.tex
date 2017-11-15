@@ -1,7 +1,7 @@
 % @Author: YangZhou
 % @Date:   2017-06-20 20:27:38
 % @Last Modified by:   YangZhou
-% @Last Modified time: 2017-11-06 16:09:59
+% @Last Modified time: 2017-11-16 01:01:44
 \documentclass[%
  reprint,
  amsmath,amssymb,
@@ -28,7 +28,7 @@
   ${}^3$Collaborative Innovation Center of Advanced Microstructures, Nanjing 210093, Jiangsu, China
 }
 \begin{abstract}
-  By means of Boltzmann Transporation Equation (BTE), we systematically study the thermal transportation properties of different types of multilayer silicene. It is found that the thermal transport properties of multilayer silicon structures have significant surface effect and size effect in interlayer direction. Surface reconstruction affects heat transport very well , the thermal conductivity of bilayer silicon with different reconstruction can reach up to $11.6 W/mK$, and can be as low as $1.2 W/mK$ and the anisotropy can be as high as $57.3\%$.With the increase of the number of layers, the thermal conductivity of the zigzag direction changed little, but the thermal conductivity increased significantly in the armchair direction, and the anisotropy of thermal conductivity decreased which is due to the smaller affection in more layer structure. This work could be helpful in the field of heat management, thermoelectric applications involving silicon and other multilayer nano materials in the future.
+  By means of Boltzmann Transportation Equation (BTE), we systematically study the thermal transportation properties of different types of multilayer silicene. It is found that the thermal transport properties of multilayer silicon structures have significant surface effect and size effect in interlayer direction. Surface reconstruction affects heat transport very well , the thermal conductivity of bilayer silicon with different reconstruction can reach up to $11.6 W/mK$, and can be as low as $1.2 W/mK$ and the anisotropy can be as high as $57.3\%$.With the increase of the number of layers, the thermal conductivity of the zigzag direction changed little, but the thermal conductivity increased significantly in the armchair direction, and the anisotropy of thermal conductivity decreased which is due to the smaller affection in more layer structure. This work could be helpful in the field of heat management, thermoelectric applications involving silicon and other multilayer nano materials in the future.
   \begin{description}
     \item[Keywords]
           Thermal conductivity, multilayer silicon, surface reconstruction, anisotropy
@@ -51,16 +51,16 @@ In this work we use multilayer silicon as a group of  ideal model systems to exp
 
 \section{COMPUTATIONAL DETAILS}
 
-The thermal conductivity of multilayer silicon structures are studied with the Boltzmann transportation equation(BTE) method realized in ShengBTE\cite{Li2014}. In order to well simulate the structures of different phase by BTE, the latest Mod potential\cite{Parks2007} based on the large scale parallel and efficient LAMMPS molecular dynamics software package is chosen\cite{Kumagai2007Development}, which is able to reconstruct the silicon material elastic constants, the melting point and phase transition.The Mod potential is constructed for different type of silicon structures by fitting its bond angle parameter to give correct melting point and elastic constants. It refers to the elastic properties predicted with first principle local density approximation (LDA) and the generalized gradient approximation (GGA). However, these first principle methods tend to overestimate the binding energy of materials and underestimate their equilibrium lattice constants. For this reason, the Mod potential is constructed referring the correction of the equilibrium bond length based on the experimental diamond structure and leads to smaller the binding energy than that predicted by the first principle method.
+The thermal conductivity of multilayer silicon structures are studied with the Boltzmann transportation equation(BTE) method realized in ShengBTE\cite{Li2014}. In order to well simulate the structures of different phase by BTE as well as saving computing effort, the latest classical Mod potential\cite{Parks2007} based on the large scale parallel and efficient LAMMPS molecular dynamics software package is chosen\cite{Kumagai2007Development}, which is able to reconstruct the silicon material elastic constants, the melting point and phase transition.The Mod potential is constructed for different type of silicon structures by fitting its bond angle parameter to give correct melting point and elastic constants. It refers to the elastic properties predicted with first principle local density approximation (LDA) and the generalized gradient approximation (GGA). However, these first principle methods tend to overestimate the binding energy of materials and underestimate their equilibrium lattice constants. For this reason, the Mod potential is constructed referring the correction of the equilibrium bond length based on the experimental diamond structure and leads to smaller the binding energy than that predicted by the first principle method.
 
-All structures are shown in FIG.\ref{fig:structures}.For convenience, we define the names of these structures as "nlxs", where n is a pure number, representing the number of layers, l represents layer, x distinguishes different structures (concrete 1, 2, 3 etc. ) and s indicates the type along the length direction with value of a (armchair) or z (zigzag). TABLE.\ref{tab:table1} lists the structure name and  the minimum repeat cell periodicity of the multilayer silicon.
+The model silicene structures are shown in FIG.\ref{fig:structures} which are picked from recent work of Guo et al\cite{Guo2015Structural}.For convenience, we define the names of these structures as "nlxs", where n is a pure number, representing the number of layers, l represents layer, x distinguishes different structures (concrete 1, 2, 3 etc. ) and s indicates the type along the length direction with value of a (armchair) or z (zigzag). TABLE.\ref{tab:table1} lists the structure name and  the minimum repeat cell periodicity of the multilayer silicon.
 
 \begin{figure}[b]
   \includegraphics[width=0.48\textwidth]{images/structures}
   \caption{\label{fig:structures}  (color online) Some typical structure of multilayer silicon. Within which  are top view and side view of the studied structures. The buckling atoms on the top surface are labeled as yellow while the red atoms represent the others on the top surface. All the atoms on the bottom surface are labeled as blue. The greens represent those that are inside the structure. The orientation of top view of the cells is labeled as arrows.}
 \end{figure}
 
-Firstly, we use conjugate gradient method to optimize these structures.  According to the previous studies, we choose Si (111) layer spacing of $3.14 \angstrom$ as the thickness of each layer.
+Before calculating thermal transportation properties , the  structures are  optimized with  conjugate gradient (CG) method which guarantee the stability of them .  Then finite displacement method (FDM) realized in Phonopy\cite{Togo2008} and Thridorder respectively are applied to extract second- and third-order force constants (FCs) in which hundreds of  slightly displaced supercells are generated and their forces are calculated with LAMMPS and used to calculate the FCs with  numerical differential calculation. The chosen supercells is $3 \times 3 \times 1$ of premitive cells to make the inplane dimension above  $40\Angstrom$ which make  forces acurrate enough. As for the out-of-plane dimension, according to the previous studies, we choose Si (111) layer spacing of $3.14 \angstrom$ as the thickness of each layer.
 
 The thermal conductivity tensor could be calculated with
 
@@ -76,7 +76,9 @@ Where $c_{k \sigma}$ means heat capacity of phonon mode $k \sigma$, $v^{\alpha}$
 
 Where $ f(\omega,T)=1/(exp(\frac{\hbar \omega}{k_b T})-1)$ is Bose-Einstein distribution function.
 
-The calculations of $c_{k\sigma}$ , $v_{k\sigma,\alpha}$, and $\tau_{k\sigma}$ require second- and third-order force constants (FCs) as inputs. Both second- and third-order FCs are extracted from finite displacement method realized in Phonopy\cite{Togo2008} and Thridorder respectively. Both second-order and third-order  FCs are calculated with $3 \times 3 \times 1$ supercell with a $15\times 15 \times 3$ Monkhorst-Pack q-point mesh. The phonon group velocity  and transmision function are calculated with  with second order force constants. The interaction range of third-order FCs is truncated up to 4th neighbor. Iteration method is used instead of relaxation time approximision (RTA) to avoid underestimate of thermal concutivity.
+The calculations of $c_{k\sigma}$ , $v_{k\sigma,\alpha}$, and $\tau_{k\sigma}$ require second- and third-order force constants (FCs) as inputs and the detail formulas are refered to the work of  Wu Li\cite{Li2014}. To avoid underestimate of thermal concutivity,Iteration method is used instead of relaxation time approximision (RTA) .A $45\times 45 \times 1$ Monkhorst-Pack q-point mesh is used to obtain enough phonons for the convergence of the summation as well as for further statistical analysics of them.
+
+
 
 \section{RESULTS AND DISCCUSION}
 
