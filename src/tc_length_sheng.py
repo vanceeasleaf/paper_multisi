@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-14 22:16:16
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-10-29 19:10:10
+# @Last Modified time: 2017-11-22 11:25:20
 from aces.tools import *
 from aces.graph import fig, setLegend, pl, fit
 import numpy as np
@@ -62,6 +62,8 @@ with fig('tc_length_sheng.eps', figsize=(7, 8)):
                     ls='.')
                 o1 = "--"
                 ka = a
+            if v == '2lhex':
+                v = '2l3'
             label = v + s
             kas.append(ka[-1])
             ax1.semilogx(l, ka, label=label, **opts)
@@ -70,7 +72,7 @@ with fig('tc_length_sheng.eps', figsize=(7, 8)):
             ax1.semilogx(xx, ff(p, xx), color=c, ls=o1)
             ax1.set_ylabel("Thermal Conductivity(W/mK)")
             # ax1.set_xticks([])
-            # ax1.set_ylim([0, 11])
+            ax1.set_ylim([-3, 60])
             ax1.text(-.15, 1, 'a)', transform=ax1.transAxes, **text_style)
 
     kas = np.array(kas).reshape([2, -1])
@@ -126,7 +128,7 @@ with fig('tc_length_sheng.eps', figsize=(7, 8)):
             xx = np.linspace(10, 1e4, 1000)
             ax1.semilogx(xx, ff(p, xx), color=c, ls=o1)
             ax1.set_xlabel("Cutoff Mean Free Path for Phonons (Angstrom)")
-            # ax1.set_ylim([0, 15])
+            ax1.set_ylim([-2, 39])
             ax1.set_xlim([0.5, 1e5])
             ax1.set_ylabel("Thermal Conductivity(W/mK)")
             ax1.text(-.15, 1, 'b)', transform=ax1.transAxes, **text_style)

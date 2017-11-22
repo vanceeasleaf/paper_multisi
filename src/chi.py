@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-14 22:16:16
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-11-20 22:08:46
+# @Last Modified time: 2017-11-22 11:11:27
 from aces.tools import *
 from aces.graph import fig, setLegend, pl, fit
 import numpy as np
@@ -45,6 +45,8 @@ with fig('chi.eps', figsize=(7, 8)):
             ls='-')
         o1 = "-"
         ka = np.abs(z - a) / np.max(np.c_[z, a], axis=1)
+        if v == '2lhex':
+            v = '2l3'
         label = v
         ax1.semilogx(l, ka, label=label, **opts)
         ax1.set_xlabel("Cutoff Mean Free Path for Phonons (Angstrom)")

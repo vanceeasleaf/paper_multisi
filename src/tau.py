@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-10-29 18:25:16
+# @Last Modified time: 2017-11-22 11:40:24
 
 
 from aces.graph import fig, setLegend, pl
@@ -48,6 +48,9 @@ with fig('tau.eps'):
                 x, y = binmeanx(q, [0.0, 20.0], dx=1.5)
                 mfc = [colors[i], 'w'][s == 'a']
                 ls = ['-', '-.'][s == 'a']
+                v1 = v
+                if v1 == '2lhex':
+                    v1 = '2l3'
                 ax.semilogy(
                     x,
                     y,
@@ -57,8 +60,15 @@ with fig('tau.eps'):
                     markeredgecolor=colors[i],
                     markerfacecolor=mfc,
                     color=colors[i],
-                    label=v + s)
-                ax.set_xlim([0, 20.55])
+                    label=v1 + s)
+                ax.axhline(
+                    y=1,
+                    xmin=0,
+                    xmax=20.55,
+                    linewidth=1,
+                    color='k',
+                    ls='--')
+                ax.set_xlim([0.01, 20.55])
                 ax.set_ylim([1e-1, 2e2])
                 setLegend(ax, fontsize=10)
     fi.text(0.5, 0.04, 'Phonon Frequency (THz)', ha='center')

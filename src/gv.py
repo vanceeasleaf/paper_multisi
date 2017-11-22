@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 14:39:58
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-10-29 11:14:58
+# @Last Modified time: 2017-11-22 11:43:17
 import aces.tools as tl
 from aces.graph import fig, setLegend, pl
 import numpy as np
@@ -44,14 +44,18 @@ with fig('gv.eps'):
         gvs = np.abs(gvs)
         N = 40
         df = 20.0 / N
+        v1 = v
+        if v1 == '2lhex':
+            v1 = '2l3'
         x, y = binmeanx(np.c_[freqs, gvs[:, 0]], [0, 20], df)
-        ax.plot(x, y, color="k", lw=3, label=v + "z")
+        ax.plot(x, y, color="k", lw=3, label=v1 + "z")
         x, y = binmeanx(np.c_[freqs, gvs[:, 1]], [0, 20], df)
-        ax.plot(x, y, color="r", ls="--", lw=3, label=v + "a")
+        ax.plot(x, y, color="r", ls="--", lw=3, label=v1 + "a")
         # ax.text(.02,.8,"("+v+")",transform=ax.transAxes,**text_style)
         setLegend(ax, ncol=1, fontsize=10)
         # ax.set_yticks([])
-        ax.set_xlim([0, 20.1])
+        ax.set_xlim([0.05, 19.9])
+        ax.set_ylim([0.05, None])
 
     fi.text(0.5, 0.04, 'Frequency (THz)', ha='center')
     fi.text(

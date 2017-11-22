@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-10-28 15:40:24
+# @Last Modified time: 2017-11-22 11:31:23
 
 
 from aces.graph import fig, setLegend, pl
@@ -34,11 +34,14 @@ with fig('tc_freq.eps'):
                 p = np.arange(len(kappa) - 2)
                 mfc = [colors[0], 'w'][s == 'a']
                 ls = ['-', '-.'][s == 'a']
+                v1 = v
+                if v1 == '2lhex':
+                    v1 = '2l3'
                 if s == "z":
                     ax.plot(
                         kappa[p, 0],
                         (kappa[p + 2, 1] - kappa[p, 1]) / df,
-                        label=v + s, ls=ls,
+                        label=v1 + s, ls=ls,
                         marker=markers[0],
                         markersize=9,
                         markeredgecolor=colors[0],
@@ -48,15 +51,15 @@ with fig('tc_freq.eps'):
                     ax.plot(
                         kappa[p, 0],
                         (kappa[p + 2, 5] - kappa[p, 5]) / df,
-                        label=v + s, ls=ls,
+                        label=v1 + s, ls=ls,
                         marker=markers[0],
                         markersize=9,
                         markeredgecolor=colors[0],
                         markerfacecolor=mfc,
                         color=colors[0])
 
-                ax.set_xlim([0, 20.55])
-                ax.set_ylim([0, 1])
+                ax.set_xlim([0.01, 20.55])
+                ax.set_ylim([0.01, 1])
                 # ax.set_yticks([])
                 setLegend(ax, fontsize=10)
     fi.text(0.5, 0.04, 'Phonon Frequency (THz)', ha='center')
