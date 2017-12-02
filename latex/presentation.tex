@@ -53,6 +53,32 @@
   \tableofcontents
 \end{frame}
 
+\section{Introduction}
+\begin{frame}[label=lists]{Introduction}
+
+  \begin{enumerate}
+    \item Silicene multilayer structure  has potential  in  thermalelectric field of quantum confinement and surface effects
+          \begin{itemize}
+            \item reduce thermal conductivity remarkably
+          \end{itemize}
+          \begin{itemize}
+            \item remain the electric conductivity remain at a relatively high level
+          \end{itemize}
+          \begin{itemize}
+            \item  thermalelectric figure of merit $ZT=\frac{S^2 \sigma T}{\kappa}$ could be optimized
+          \end{itemize}
+
+    \item Lack of study of thermaleletric properties of low-dimensional materials with interaction of covalent type
+          \begin{itemize}
+            \item they has large surface reconstruction while Van der Waals(vdW) type has not.
+          \end{itemize}
+
+  \end{enumerate}
+  \bigskip
+  \justifying
+
+\end{frame}
+
 
 \section{Structures}
 \begin{frame}{Structures}
@@ -60,175 +86,159 @@
   \includegraphics[width=\textwidth]{images/structures}
 \end{frame}
 
-\begin{frame}{Structure Characteristic}
-  \framesubtitle{Symmetry,Energy and Surface}%
-  \begin{table}[!b]
-    \tiny
-    {\carlitoTLF % Use monospaced lining figures
-      \begin{tabular}{cccccccc}
-        \textbf{Name}
-             & \textbf{Minimal period}
-             & \textbf{Symmetry}
-             & \textbf{$\mathbf{E_c}$ in Guo}
-             & \textbf{$\mathbf{E_c}$ in MD}
-             & \textbf{Buckling Feature}                                                                    \\
-        \toprule
-        2l1  & $1 \times 1$                   & Cmme    & 5.000 & 4.145 & Smooth                            \\
-        2l2  & $\sqrt{2}\times\sqrt{2}$       & C12/m1  & 4.991 & 4.204 & Large buckling and symmetric      \\
-        2l3  & $2 \times 2$                   & C12/m1  & 5.063 & 4.257 & Large buckling and tilt symmetric \\
-        2lh  & $2 \times 2$                   & P1      & 5.073 & 4.216 & Large buckling                    \\
-        2lr3 & $\sqrt{3}\times\sqrt{3}$       & P1      & -     & 4.225 & Small buckling and symmetric      \\
-        3l1  & $2 \times 1$                   & P121/m1 & 5.138 & 4.337 & -                                 \\
-        3l2  & $2 \times 1$                   & P1      & 5.135 & 4.298 & -                                 \\
-        4l1  & $2 \times 1$                   & P1      & 5.225 & 4.368 & -                                 \\
-        2l2  & $\sqrt{2}\times\sqrt{2}$       & C12/m1  & 4.991 & 4.204 & Large buckling and symmetric      \\
-        2l3  & $2 \times 2$                   & C12/m1  & 5.063 & 4.257 & Large buckling and tilt symmetric \\
-        2lh  & $2 \times 2$                   & P1      & 5.073 & 4.216 & Large buckling                    \\
-        2lr3 & $\sqrt{3}\times\sqrt{3}$       & P1      & -     & 4.225 & Small buckling and symmetric      \\
-        3l1  & $2 \times 1$                   & P121/m1 & 5.138 & 4.337 & -                                 \\
-        3l2  & $2 \times 1$                   & P1      & 5.135 & 4.298 & -                                 \\
-        4l1  & $2 \times 1$                   & P1      & 5.225 & 4.368 & -                                 \\
-        \bottomrule
-      \end{tabular}
-    }
+\section{Thermal Conductivity Result}
 
-    \caption{
-      Symmetry of the structures, binding energy $E_c(eV/Si)$ and structure features}
-  \end{table}
-
-\end{frame}
-
-\section{Effect of Buckling $\&$ Layers on TC}
-\begin{frame}{Effect of Buckling on TC}
-  \framesubtitle{$\kappa = \kappa_\infty (1-e^{-\frac{L}{L_c}})$}%
+\begin{frame}{TC Calculation}
+  \framesubtitle{Boltzmann Transportation Theory}%
 
   \begin{columns}[onlytextwidth]
-    \tiny
-    \column{.5\textwidth}
-    The letter z/a in the legend mean the transport direction is zigzag/armchair.\\
-    \includegraphics[width=\textwidth]{images/2l_length}
+    \column{1\textwidth}
+    The thermal conductivity tensor could be calculated with
 
-    \column{.5\textwidth}
-    TC along zigzag are larger than armchair while anisotropy decrese when layer increases.\\
-    \includegraphics[width=\textwidth]{images/vl_length}
+    \begin{equation}
+      \kappa^{\alpha\beta} = \sum_{k \sigma}{c_{k \sigma}v^{\alpha}_{k \sigma}v^{\beta}_{k \sigma}\tau_{k \sigma}} \label{eq:kappasum}
+    \end{equation}
+
+    Where $c_{k \sigma}$ means heat capacity of phonon mode $k \sigma$, $v^{\alpha}$ present for mode group velocity and $\tau_{k \sigma}$ is phonon lifetime. The heat capacity  could be computed with Eq.(\ref{eq:cv}) .
+
+    \begin{equation}
+      c_{k \sigma}=\frac{\hbar \omega_{k \sigma} }{V} \frac{\partial f(\omega_{k \sigma},T)}{\partial T} \label{eq:cv}
+    \end{equation}
+
+    Where $ f(\omega,T)=1/(exp(\frac{\hbar \omega}{k_b T})-1)$ is Bose-Einstein distribution function.
+
 
   \end{columns}
 
 \end{frame}
 
 
+\begin{frame}{Length dependence of TC}
+  \begin{columns}[onlytextwidth]
+    \column{.4\textwidth}
+    The fitting line is obtained with $\kappa = \kappa_\infty (1-e^{-\frac{L}{L_c}})$. \\
+    The letter z/a in the legend mean the transport direction is zigzag/armchair.
+    \column{.6\textwidth}
+    \includegraphics[width=\textwidth]{images/tc_length_sheng}
+
+
+  \end{columns}
+
+\end{frame}
+
 
 \section{Anisotropy of Thermal Conductivity}
 \begin{frame}{Anisotropy of Thermal Conductivity}
-  \framesubtitle{Diffusive TC of varible structures}%
+  \framesubtitle{Converged TC of varible structures}%
   $ \chi=|\kappa_{z,\infty}-\kappa_{a,\infty} |/max⁡(\kappa_{z,\infty}-\kappa_{a,\infty} ) \times 100 \%$
   \begin{table}[!b]
-    \tiny
     {\carlitoTLF % Use monospaced lining figures
-      \begin{tabular}{cccccccccccc}
-              & \textbf{$\mathbf{\kappa_{z,\infty}}$}
-              & \textbf{$\mathbf{\kappa_{a,\infty}}$}
-              & \textbf{$\mathbf{\chi}$}
-              & $Cv_{z}$
-              & $Cv_{a}$
-              &
-              & \textbf{$\mathbf{\kappa_{z,\infty}}$}
-              & \textbf{$\mathbf{\kappa_{a,\infty}}$}
-              & \textbf{$\mathbf{\chi}$}
-              & $Cv_{z}$
-              & $Cv_{a}$                                                                                                                \\
+      \begin{tabular}{ccccccc}
+            & Minimal period
+            & $\kappa_{z,\infty}$
+            & $\kappa_{a,\infty}$
+            & $\chi$
+            & $Cv_{z}$
+            & $Cv_{a}$                                                           \\
         \toprule
-        2l1   & 11.6                                  & 6.5  & 43.9\% & 165.8 & 166.7 & 2l2      & 1.5  & 1.2  & 20.0\% & 38.44 & 38.44 \\
-        2l3   & 5.0                                   & 9.7  & 48.5\% & 23.38 & 23.38 & 2lr3     & 8.2  & 3.5  & 57.3\% & 10.15 & 10.15 \\
-        2lh   & 2.0                                   & 2.5  & 20.0\% & 22.42 & 22.42 & 3l1      & 11.5 & 2.9  & 74.8\% & 52.22 & 52.46 \\
-        3l2   & 10.2                                  & 5.2  & 49.0\% & 55.56 & 55.84 & 4l1      & 10.2 & 3.4  & 66.7\% & 37.71 & 37.89 \\
-        5l1   & 11.7                                  & 5.7  & 51.3\% & 29.17 & 29.32 & 6l1      & 10.3 & 7.8  & 24.3\% & 23.73 & 23.86 \\
-        8l1   & 13.2                                  & 14.9 & 11.4\% & 17.26 & 17.36 & 10l1     & 13.3 & 13.5 & 1.5\%  & -     & -     \\
-        Si111 & 33.6                                  & 34.7 & 3.2\%  & -     & -     & Silicene & 11.4 & 11.6 & 1.7\%  & 606.4 & 613.4 \\
+        2l1 & $1 \times 1$             & 42.10 & 57.92 & 27.31\% & 165.8 & 166.7 \\
+        2l2 & $\sqrt{2}\times\sqrt{2}$ & 31.11 & 31.11 & 0    \% & 38.44 & 38.44 \\
+        2l3 & $2 \times 2$             & 3.311 & 5.624 & 41.13\% & 22.42 & 22.42 \\
+        3l1 & $2 \times 1$             & 31.44 & 14.05 & 55.29\% & 52.22 & 52.46 \\
+        4l1 & $2 \times 1$             & 20.37 & 6.114 & 69.98\% & 37.71 & 37.89 \\
+        5l1 & $2 \times 1$             & 19.33 & 6.419 & 66.78\% & 29.17 & 29.32 \\
+        6l1 & $2 \times 1$             & 17.78 & 6.527 & 63.29\% & 23.73 & 23.86 \\
+        8l1 & $2 \times 1$             & 17.56 & 7.461 & 57.51\% & 17.26 & 17.36 \\
         \bottomrule
       \end{tabular}
     }
+
     \caption{
-      The thermal conductivity and anisotropic ratio of different multi-layer silicene.}
+      Minimal period of the structures,thermal conductivity, anisotropy and heat capacity}
   \end{table}
 
 \end{frame}
 
-\section{Phonon Dispersion}
-\begin{frame}{Phonon Dispersion}
+
+\begin{frame}{Length dependence of Anisotropy}
+  \small
+  \begin{columns}[onlytextwidth]
+    \column{\textwidth}
+    \includegraphics[width=\textwidth]{images/chi}
+
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}{Frenquency dependence of TC}
   \begin{figure}[b]
-    \begin{columns}[onlytextwidth]
-      \column{.5\textwidth}
-      \includegraphics[width=0.8\textwidth]{images/bands}
-      \caption{\label{fig:bands} $\Gamma(0.0, 0.0, 0.0)$, $X(0.5, 0.0, 0.0)$,  $Y(0.0, 0.5, 0.0)$}
-      \column{.5\textwidth}
+    \begin{columns}
+      \small
+      \column{\textwidth}
       \includegraphics[width=\textwidth]{images/tc_freq}
       \caption{\label{fig:freq} The contribution of thermal conductivity from different frequency }
     \end{columns}
   \end{figure}
 \end{frame}
 
-\section{Thermal Condcutivity Tensor}
-\begin{frame}{Thermal Condcutivity Tensor}
-  \framesubtitle{Heat Capacity $\&$ Group Velocity}%
-  $\kappa^{\alpha\beta} = \sum_{k \sigma}{c_{k \sigma}v^{\alpha}_{k \sigma}v^{\beta}_{k \sigma}\tau_{k \sigma}}$
 
+\section{Scattering Contribution of Anisotropy}
+\begin{frame}{Scattering Contribution of Anisotropy}
+  \framesubtitle{Phonon Lifetime}%
   \begin{columns}[onlytextwidth]
-    \column{.8\textwidth}
-    \includegraphics[width=\textwidth]{images/gv}
-  \end{columns}
-\end{frame}
-
-\section{Phonon Localization}
-\begin{frame}{Phonon Localization}
-  \framesubtitle{Participation Ratio $\&$ Transmission}%
-  \begin{columns}[onlytextwidth]
-    \column{.5\textwidth}
-    \includegraphics[width=\textwidth]{images/pr_direction}
-    \column{.5\textwidth}
-    \includegraphics[width=\textwidth]{images/transmission}
-  \end{columns}
-\end{frame}
-
-\section{Phonon Scattering}
-\begin{frame}{Phonon Scattering}
-  \framesubtitle{Lifetime $\&$ Gruneisen Parameter}%
-  \begin{columns}[onlytextwidth]
-    \column{.5\textwidth}
+    \column{1\textwidth}
     \includegraphics[width=\textwidth]{images/tau}
-    \column{.5\textwidth}
-    \includegraphics[width=\textwidth]{images/gruneisen}
+
   \end{columns}
 \end{frame}
+
+
+\section{Localization Contribution of Anisotropy}
+\begin{frame}{Localization Contribution of Anisotropy}
+  \framesubtitle{ Group Velocity}%
+
+  \begin{figure}[h]
+    \centering
+
+    \includegraphics[width=.8\textwidth]{images/gv}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Localization Contribution of Anisotropy}
+  \framesubtitle{ Phonon Transmission}%
+  \small
+  $\Theta(\omega)= Tr(\mathbf{\widetilde{k}}_{a\alpha} Im(\mathbf{g}_{\alpha\alpha}) \mathbf{\widetilde{k}}_{\alpha a}\mathbf{G}_{a b}^*\mathbf{\widetilde{k}}_{b\beta}Im(\mathbf{g}_{\beta\beta})\mathbf{\widetilde{k}}_{\beta b}\mathbf{G}_{b a} )$
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{images/transmission}
+  \end{figure}
+\end{frame}
+
+
+
+
 
 \section{Conclusion}
 \begin{frame}[label=lists]{Conclusion}
 
   \begin{enumerate}
-    \item layer < 6L
-          \begin{itemize}
-            \item Large anisotropy(>20\%).
-          \end{itemize}
-          \begin{itemize}
-            \item Reason: Group velosity differrence caused by reconstruction.
-          \end{itemize}
     \item layer = 2L
           \begin{itemize}
-            \item Most difference due to reconstruction.
+            \item The anisotropy mainly comes from scattering
           \end{itemize}
           \begin{itemize}
-            \item More layer will reduce reconstruction so the anisotropy.
+            \item Surface reconstruction affects the magnitude and anisotropy a lot.
           \end{itemize}
-    \item layer < 6L
+    \item layer >= 3L
           \begin{itemize}
-            \item TC as low as 1.2 W/mK
+            \item The anisotropy mainly comes from localization
           \end{itemize}
           \begin{itemize}
-            \item Anisotropy as high as 75\%
+            \item Group velocity and Dispertion
           \end{itemize}
-
           \begin{itemize}
-            \item Potential in thermoelectric application
+            \item Transmission
           \end{itemize}
   \end{enumerate}
   \bigskip
@@ -237,32 +247,10 @@
 \end{frame}
 
 
-\begin{frame}[label=bibliography]{Bibliography}
-  \framesubtitle{\TeX, \LaTeX, and Beamer}
-  \begin{thebibliography}{9}
-    \bibitem{knuth84}
-    Donald~E.~Knuth.
-    \emph{The \TeX book}.
-    Addison-Wesley, 1984.
-    \bibitem{lamport94}
-    Leslie~Lamport.
-    \emph{\LaTeX : A Document Preparation System}.
-    Addison-Wesley, 1986.
-    \bibitem{MG94}
-    M.~Goossens, F.~Mittelbach, and A.~Samarin.
-    \emph{The \LaTeX\ Companion}.
-    Addison-Wesley, 1994.
-    \bibitem{tantau04}
-    Till~Tantau.
-    \emph{User's Guide to the Beamer Class Version 3.01}.
-    Available at \url{http://latex-beamer.sourceforge.net}.
-    \bibitem{MS05}
-    A.~Mertz and W.~Slough.
-    Edited by B.~Beeton and K.~Berry.
-    \emph{Beamer by example} In TUGboat,
-    Vol. 26, No. 1., pp. 68-73.
-  \end{thebibliography}
-\end{frame}
-
-
+\frame{
+\title{Thanks for your attention !}
+\maketitle \\
+{\color{white} \today
+}
+}
 \end{document}
