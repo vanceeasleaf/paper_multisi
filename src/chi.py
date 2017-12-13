@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-14 22:16:16
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-11-22 11:11:27
+# @Last Modified time: 2017-12-07 14:42:03
 from aces.tools import *
 from aces.graph import fig, setLegend, pl, fit
 import numpy as np
@@ -12,7 +12,8 @@ from ase import io
 kas = []
 with fig('chi.eps', figsize=(7, 8)):
     markers = ['s', '8', '^', 'D', '>']
-    colors = "k,r,b,purple,g,o".split(',')
+    colors = "firebrick,r,b,k,g,hotpink,orange,r".split(
+        ',')
     text_style = dict(horizontalalignment='left', verticalalignment='center',
                       fontsize=14, fontdict={'family': 'serif'})
     fi, axes = pl.subplots(1, 1, sharex=True, figsize=(7, 4))
@@ -27,7 +28,7 @@ with fig('chi.eps', figsize=(7, 8)):
         kappa = np.loadtxt(
             dir + '/T300K/BTE.cumulative_kappa_tensor')  # [::3]
         # m = markers[i]
-        # c = colors[i]
+        c = colors[i]
         l = kappa[:, 0]
         atoms = io.read(v + "/0/secondorder/POSCAR")
         nlayer = int(v.split('l')[0])
@@ -39,12 +40,12 @@ with fig('chi.eps', figsize=(7, 8)):
         opts = dict(
             # markeredgecolor='w',
             # marker=m,
-            # color=c,
+            color=c,
             # markersize=1 + 2,
             lw=2,
             ls='-')
         o1 = "-"
-        ka = np.abs(z - a) / np.max(np.c_[z, a], axis=1)
+        ka = np.abs(z - a) / np.max(np.c_[z, a], axis=1) * 100
         if v == '2lhex':
             v = '2l3'
         label = v
@@ -52,8 +53,8 @@ with fig('chi.eps', figsize=(7, 8)):
         ax1.set_xlabel("Cutoff Mean Free Path for Phonons (Angstrom)")
         # ax1.set_ylim([0, 15])
         ax1.set_xlim([10, 1e5])
-        ax1.set_ylim([0, .8])
-        ax1.set_ylabel("Thermal Conductivity Anisotropy")
+        ax1.set_ylim([0, .8 * 100])
+        ax1.set_ylabel("Thermal Conductivity Anisotropy (%)")
         # ax1.text(-.15, 1, 'b)', transform=ax1.transAxes, **text_style)
     setLegend(ax1, ncol=2, loc=0, fontsize=8)
     fi.subplots_adjust(
