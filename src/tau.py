@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-11-22 11:40:24
+# @Last Modified time: 2017-12-16 16:04:01
 
 
 from aces.graph import fig, setLegend, pl
@@ -16,7 +16,7 @@ import matplotlib
 matplotlib.rcParams['ytick.minor.width'] = 1.5
 matplotlib.rcParams['ytick.minor.size'] = 3
 with fig('tau.eps'):
-    fi, axes = pl.subplots(2, 3, sharex=True, sharey=True, figsize=(10, 6))
+    fi, axes = pl.subplots(2, 3, sharex=True, sharey=True, figsize=(8, 5))
     for j in range(2):
         if j == 0:
             vs = "2l1,2lhex,3l1".split(',')
@@ -68,11 +68,11 @@ with fig('tau.eps'):
                     linewidth=1,
                     color='k',
                     ls='--')
-                ax.set_xlim([0.01, 20.55])
-                ax.set_ylim([1e-1, 2e2])
+                ax.set_xlim([0.01, 19.55])
+                ax.set_ylim([1.1e-1, 2e2])
                 setLegend(ax, fontsize=10)
-    fi.text(0.5, 0.04, 'Phonon Frequency (THz)', ha='center')
+    fi.text(0.5, 0.00, 'Phonon Frequency (THz)', ha='center')
     fi.text(
-        0.05, 0.5, 'Relaxation Time (ps)', va='center', rotation='vertical')
+        0.03, 0.5, 'Relaxation Time (ps)', va='center', rotation='vertical')
     fi.subplots_adjust(
         left=None, bottom=None, right=None, top=None, wspace=0, hspace=0)

@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 14:39:58
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-11-22 11:43:17
+# @Last Modified time: 2017-12-16 16:05:05
 import aces.tools as tl
 from aces.graph import fig, setLegend, pl
 import numpy as np
@@ -15,7 +15,7 @@ text_style = dict(
     fontdict={'family': 'serif'})
 vs = '2l1,2lh,3l1,4l1,5l1,6l1'.split(',')
 with fig('gv.eps'):
-    fi, axes = pl.subplots(2, 3, sharex=True, sharey=True, figsize=(10, 7))
+    fi, axes = pl.subplots(2, 3, sharex=True, sharey=True, figsize=(8, 5))
     for i, v in enumerate(vs):
         print(v)
         ax = axes[i // 3, i % 3]
@@ -57,7 +57,7 @@ with fig('gv.eps'):
         ax.set_xlim([0.05, 19.9])
         ax.set_ylim([0.05, None])
 
-    fi.text(0.5, 0.04, 'Frequency (THz)', ha='center')
+    fi.text(0.5, 0.00, 'Phonon Frequency (THz)', ha='center')
     fi.text(
         0.07,
         0.5,
