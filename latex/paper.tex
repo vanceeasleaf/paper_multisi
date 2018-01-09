@@ -1,7 +1,7 @@
 % @Author: YangZhou
 % @Date:   2017-06-20 20:27:38
 % @Last Modified by:   YangZhou
-% @Last Modified time: 2017-12-17 21:06:23
+% @Last Modified time: 2018-01-09 16:34:41
 
 \documentclass[aps,prb,twocolumn,showpacs,amsmath,amssymb]{revtex4-1}
 
@@ -20,7 +20,7 @@
 
 \begin{document}
 
-\title{Anisotropic in-plane thermal conductivity observed in multilayer silicene}
+\title{Anisotropic in-plane thermal conductivity in multilayer silicene}
 \author{Yang Zhou${}^{1,3}$}
 \author{Zhi-Xin Guo${}^{2,1}$}
 \email{zxguo08@hotmail.com}
@@ -34,7 +34,7 @@
   ${}^3$Collaborative Innovation Center of Advanced Microstructures, Nanjing 210093, Jiangsu, China
 }
 \begin{abstract}
-  The silicon materials present complex surface reconstructions, which are usually neglected for thermal conductivity investigations due to their small specific surface area. However, the reconstruction effect can be significant when a material's thickness becomes ultra-thin, i. e., multilayer silicene. Here we systematically study thermal conductivity of multilayer silicene by means of Boltzmann Transportation Equation (BTE) method.  We find that their thermal conductivity strongly depends on the surface structures. Thermal conductivity of bilayer silicene varies from $3.31$ W/mK to $57.9$ W/mK with different surface structures. Also, the $2\times1$ surface reconstruction induces unusual large thermal conductivity anisotropy, which reaches 70\%  in a four-layer silicene.  We also find that the anisotropy decreases with silicene thickness increasing, owing to the significant reduction of thermal conductivity in the zigzag direction and its slight increment  in the armchair direction.
+  We systematically study thermal conductivity of multilayer silicene by means of Boltzmann Transportation Equation (BTE) method.  We find that their thermal conductivity strongly depends on the surface structures. Thermal conductivity of bilayer silicene varies from $3.31$ W/mK to $57.9$ W/mK with different surface structures. Also, the $2\times1$ surface reconstruction induces unusual large thermal conductivity anisotropy, which reaches 70\%  in a four-layer silicene.  We also find that the anisotropy decreases with silicene thickness increasing, owing to the significant reduction of thermal conductivity in the zigzag direction and its slight increment  in the armchair direction.
   Finally, we find that both the phonon-lifetime anisotropy and the phonon-group-velocity  anisotropy contribute to the thermal conductivity anisotropy of multilayer silicene.
   These findings could be helpful in the field of heat management, thermoelectric applications involving silicene and other multilayer nanomaterials  with surface reconstructions in the future.
 
@@ -48,10 +48,10 @@
 
 \section{INTRODUCTION}
 
-Many theoretical and experimental results showed that the quantum confinement and surface effects can remarkably reduce the thermal conductivity of nanomaterials while maintaining their electronic conductivity at high level, which make them great potential applications in the thermoelectric\cite{Dresselhaus2007,Chen2013}. For example,  Boukai \emph{et al}.\cite{Boukai2008} found that by altering the nanowire size and impurity doping levels,  approximately 100-fold improvement of  ZT over bulk Si can be achieved in a broad temperature range. Also, Hochbaum \emph{et al}.\cite{Hochbaum2008}  proposed a way of increasing ZT via controlling the roughness of silicene nanowires. As far as we know,  thermal conductivity of silicon nanostructures, i. e.,  silicene nanowires\cite{Hochbaum2008,Yang2010,Shi2009,Boukai2008} and monolayer silicene\cite{Pei2013,Ng2013,Xie2014,Zhang2014,Liu2014,Wang2015,Zhang2015a,Chen2016} had been well studied, while it is still mysterious for multilayer silicene.
+Many theoretical and experimental results showed that the quantum confinement and surface effects can remarkably reduce the thermal conductivity of nanomaterials while maintaining their electronic conductivity at high level, which make them great potential applications in the thermoelectric\cite{Dresselhaus2007,Chen2013}. For example,  Boukai \emph{et al}.\cite{Boukai2008} found that by altering the nanowire size and impurity doping levels,  approximately 100-fold improvement of  ZT over bulk Si can be achieved in a broad temperature range. Also, Hochbaum \emph{et al}.\cite{Hochbaum2008}  proposed a way of increasing ZT via controlling the roughness of silicene nanowires.
 The combined effects of quantum size and surface reconstruction in multilayer silicene are expected to induce exotic thermal transport properties different from either monolayer silicene or bulk Si, which may make it suitable for the thermoelectric applications. Since thermal conductivity of monolayer silicene and bulk Si had been well explored, the investigation on multilayer silicene is helpful for understanding thermal conductivity evolution from two dimensional (2D) to three dimensional (3D) systems.
 
-The existing researches on thermal conductivity of 2D materials mainly focus on the ones with weak van der Waals (vdW) interlayer interactions where no surface reconstruction appears. The multilayer graphene\cite{Lindsay2011, Ni2012,Wang2011}, $MoS_2$\cite{Liu2015}, and black phosphorus\cite{Zhang2015,Peng2015,Jain2015} are such kind of 2D materials which had been well studied.  Whereas, the thermal conductivity of 2D materials with strong interlayer interactions is barely explored so far.
+The existing researches on thermal conductivity of 2D materials mainly focus on the ones with weak van der Waals (vdW) interlayer interactions where no surface reconstruction appears. The multilayer graphene\cite{Lindsay2011, Ni2012,Wang2011}, $MoS_2$\cite{Liu2015}, and black phosphorus\cite{Zhang2015,Peng2015,Jain2015} are such kind of 2D materials which had been well studied.  Whereas, the thermal conductivity of 2D materials with strong interlayer interactions is poorly understood so far.
 The multilayer silicene, which has been both theoretically predicted and experimentally synthesized, can be an ideal material for such an investigation \cite{Fu2014,Padova2016,Guo2015Structural}.
 Previous studies showed that multilayer silicene exhibits special surface reconstructions which induce  intriguing electronic property\cite{Fu2014,Guo2015Structural}. Naturally, one also expects the surface reconstruction to play a key role in its thermal transport property.
 
@@ -72,13 +72,13 @@ The atomic structures of multilayer silicene that were predicted to be stable by
   \caption{\label{fig:structures}  (color online)  Top view and side views of typical structures of multilayer silicene. The buckling Si atoms on the top layer are labeled as yellow balls, and the red balls represent the remaining Si atoms on the top layer. All the Si atoms on the bottom layer are labeled as the blue balls. The green balls represent Si atoms in the middle layers. The orientation of top view of the cells is armchair in the x direction and zigzag in the y direction in the figure.}
 \end{figure}
 
-Before the thermal conductivity calculation, silicene structures are fully optimized using the conjugate gradient method.  Then the finite displacement method (FDM) realized in Phonopy\cite{Togo2008} and Thirdorder \cite{Li2014} are applied to extract the second- and third-order force constants (FCs) respectively,  in which hundreds of  slightly displaced supercells are generated. The obtained forces are calculated and used to calculate the FCs with the numerical differential calculation. The supercells of $3 \times 3 \times 1$ primitive cells are adopted to make the in-plane dimension above 40 \angstrom, which ensure the accuracy of calculated forces. Following the previous studies\cite{Pei2013,Fu2014}, we choose Si (111) layer spacing of $3.14 \angstrom$ as the interlayer thickness.
+Silicene structures are fully optimized using the conjugate gradient method.  The finite displacement method (FDM) realized in Phonopy\cite{Togo2008} and Thirdorder \cite{Li2014} are applied to extract the second- and third-order force constants (FCs) respectively,  in which hundreds of  slightly displaced supercells are generated. The obtained forces are calculated and used to calculate the FCs with the numerical differential calculation. The supercells of $3 \times 3 \times 1$ primitive cells are adopted to make the in-plane dimension above 40 \angstrom, which ensure the accuracy of calculated forces. Following the previous studies\cite{Pei2013,Fu2014}, we choose Si (111) layer spacing of $3.14 \angstrom$ as the interlayer thickness.
 
 The thermal conductivity tensor can be calculated as
 \begin{equation}
   \kappa^{\alpha\beta} = \sum_{k \sigma}{c_{k \sigma}v^{\alpha}_{k \sigma}v^{\beta}_{k \sigma}\tau_{k \sigma}} \label{eq:kappasum}
 \end{equation}
-where $c_{k \sigma}$ means the heat capacity of phonon mode,  $v_{k \sigma}^{\alpha}$ represents the mode group velocity, and $\tau_{k \sigma}$ is the phonon lifetime. The heat capacity is calculated as
+where $c_{k \sigma}$ is the heat capacity of phonon mode,  $v_{k \sigma}^{\alpha}$ is the mode group velocity, and $\tau_{k \sigma}$ is the phonon lifetime. The heat capacity is calculated by
 \begin{equation}
   c_{k \sigma}=\frac{\hbar \omega_{k \sigma} }{V} \frac{\partial f(\omega_{k \sigma},T)}{\partial T} \label{eq:cv}
 \end{equation}
@@ -89,10 +89,10 @@ The calculations of $c_{k\sigma}$ , $v_{k \sigma}^{\alpha}$, and $\tau_{k\sigma}
 \section{RESULTS AND DISCCUSION}
 
 We first show that the surface reconstruction has substantial influence on thermal conductivity of multilayer silicene.
-Fig.\ref{fig:tc_length_sheng}(a) presents the length dependence of thermal conductivity of three bilayer silicene structures.
-It is seen that the thermal conductivity converges quickly with cutoff phonon mean free path (MFP) in of 2l2 structure, while it is a bit slowly in 2l1 and 2l3 structures. Also, the cutoff MFPs of 2l1 structure are distinct in the armchair and zigzag directions. These features can be attributed to the different scattering intensity caused by the surface reconstructions.
-It is known that the ballistic phonon transport is dominating when a material length is smaller than the MFP,  whereas the diffuse phonon transport is  dominating when the length is larger than the MFP.
-An empirical formula had been proposed by John A. Thomas\cite{Thomas2010}  to characterize the thermal conductivity from ballistic to diffuse phonon-transport region, which is
+Fig.\ref{fig:tc_length_sheng}(a) presents the length dependence of thermal conductivity of three structures of bilayer silicene.
+One can see that the thermal conductivity converges quickly with cutoff phonon mean free path (MFP) in of 2l2 structure, while it is a bit slowly in 2l1 and 2l3 structures. Also, the cutoff MFPs of 2l1 structure are distinct in the armchair and zigzag directions. These features can be attributed to the different scattering intensity caused by the surface reconstructions.
+It is known that the ballistic phonon transport is dominating when the length of the sample is smaller than the MFP,  whereas the diffuse phonon transport is  dominating when the length is larger than the MFP.
+An empirical formula had been proposed by Thomas\cite{Thomas2010}  to characterize the thermal conductivity from ballistic to diffuse phonon-transport region, which is
 \begin{equation}
   \kappa = \kappa_\infty (1-e^{-\frac{L}{L_c}}) \label{eq:eq_nemd}
 \end{equation}
@@ -108,7 +108,7 @@ It is found that both 2l2 and 2l3 structures show large thermal conductivity ani
 
 \begin{figure}[b]
   \includegraphics[angle= 0, width=0.9\linewidth]{images/tc_length_sheng.eps}
-  \caption{\label{fig:tc_length_sheng} (color online) a) The length dependence of thermal conductivity of three bilayer silicene structures. b) The thickness dependence of thermal conductivity of silicene with $2\times 1$ reconstruction. The dots are the results from BTE calculations, and the lines are the fitted results using Eq.(\ref{eq:eq_nemd}). The letter z/a in the legend means that the transport direction is zigzag/armchair. The dots of 2l2a and 2l2z are almost the same so red solid dots are covered. }
+  \caption{\label{fig:tc_length_sheng} (color online) a) The size dependence of thermal conductivity of three bilayer silicene structures. b) The thickness dependence of thermal conductivity of silicene with $2\times 1$ reconstruction. The dots are the results from BTE calculations, and the lines are the fitted results using Eq.(\ref{eq:eq_nemd}). The letter z/a in the legend means that the transport direction is zigzag/armchair. The dots of 2l2a and 2l2z are almost the same so red solid dots are covered. }
 \end{figure}
 
 \begin{figure}[b]
@@ -116,8 +116,8 @@ It is found that both 2l2 and 2l3 structures show large thermal conductivity ani
   \caption{\label{fig:chi} (color online) The silicene length dependence of thermal conductivity anisotropy $\chi$.}
 \end{figure}
 
-We then discuss the thickness dependence of thermal conductivity anisotropy in multilayer silicene. Here we mainly focus on the structures of 3-8 Si layers in thickness, whose surface present the typical $2 \times 1$ Si(111) reconstruction. A common feature is that the thermal conductivity in the zigzag direction ($\kappa_z$) is obviously higher than that  in the armchair ($\kappa_a$) direction, which induces anisotropy larger than 55\%.
-The reason is that the surface in zigzag direction is composed of smooth zigzag atomic chains (as shown in Fig.\ref{fig:structures}), which are favorable for the heat transport. Whereas,  there are large geometry fluctuations in its the armchair direction, which are unfavorable for the heat transport.
+Here we discuss the thickness dependence of thermal conductivity anisotropy in multilayer silicene. We mainly focus on the structures of 3-8 Si layers in thickness, whose surface present the typical $2 \times 1$ Si(111) reconstruction. A common feature is that the thermal conductivity in the zigzag direction ($\kappa_z$) is obviously higher than that  in the armchair ($\kappa_a$) direction, which induces anisotropy larger than 55\%.
+The reason is that the surface in zigzag direction is composed of smooth zigzag atomic chains (as shown in Fig.\ref{fig:structures}), which are favorable for the heat transport. Whereas,  there are large geometry fluctuations in the armchair direction, which are unfavorable for the heat transport.
 With the silicene thickness increasing from 4 to 8 atomic layers, the anisotropy monotonically decreases from 70\% to 58\%, showing the negative  effect of thickness on the thermal conductivity anisotropy, which  is owing to the decrease of $\kappa_z$ and increase of $\kappa_a$  with the  thickness increasing.
 One exception is for the trilayer silicene, which has the largest thermal conductivity but the smallest  anisotropy compared to the thicker  $2\times1$ silicene structures.  This could be understood by the direct interaction between the top and bottom layers, as well as the absence of ideal honeycomb ring under the surface layers  for the thermal transport, which is different from the thicker ones\cite{Guo2015Structural}.
 
@@ -152,7 +152,7 @@ It is found that the anisotropy is mainly attributed to the low-frequency (0-5 T
 Whereas, as for the $2\times1$ structures thicker than 3 Si layers, the thermal conductivities in armchair and zigzag directions are nearly the same in the low-frequency region, and the anisotropy is mainly attributed to the high-frequency (5-20 THz) phonons.
 In addition, the anisotropy of the 3l1 structure is resulted by the phonons with frequency above 10 THz, below which the summation of contributions to thermal conductivity are nearly the same in armchair and zigzag directions.
 
-To have a deep inside into the origin of anisotropy, it's helpful to investigate all the factors that contribute to thermal conductivity according to Eq.(\ref{eq:kappasum}).
+To have a deep insight into the origin of anisotropy, it's helpful to investigate all the factors that contribute to thermal conductivity according to Eq.(\ref{eq:kappasum}).
 We select all the phonons along  $\Gamma\rightarrow X$ and $\Gamma \rightarrow Y$ directions in Brillouin zone, and calculated their heat capacity with Eq.(\ref{eq:cv}). The averaged heat capacity of silicene structures are shown in Table.\ref{tab:table1}, where $Cv_z$ and $Cv_a$ correspond to the  heat capacity for thermal conductivity in the zigzag and armchair directions, respectively.  As one can see, although $Cv_z$ and $Cv_a$  strongly depend on the reconstructed structure and thickness of multilayer silicene, their difference in the same structure is very small. This feature shows that the thermal conductivity anisotropy is insensitive to the heat capacity.
 
 

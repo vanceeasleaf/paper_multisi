@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-12-16 16:03:31
+# @Last Modified time: 2018-01-09 17:02:43
 
 
 from aces.graph import fig, setLegend, pl
@@ -61,7 +61,7 @@ with fig('tc_freq.eps'):
                 ax.set_xlim([0.03, 19.5])
                 ax.set_ylim([0.01, 1])
                 # ax.set_yticks([])
-                setLegend(ax, fontsize=10)
+                setLegend(ax, fontsize=12)
     fi.text(0.5, 0.00, 'Phonon Frequency (THz)', ha='center', fontsize=14)
     fi.text(
         0.05,

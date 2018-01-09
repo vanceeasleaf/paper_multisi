@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-14 22:16:16
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-12-07 14:42:03
+# @Last Modified time: 2018-01-09 16:54:40
 from aces.tools import *
 from aces.graph import fig, setLegend, pl, fit
 import numpy as np
@@ -50,13 +50,13 @@ with fig('chi.eps', figsize=(7, 8)):
             v = '2l3'
         label = v
         ax1.semilogx(l, ka, label=label, **opts)
-        ax1.set_xlabel("Cutoff Mean Free Path for Phonons (Angstrom)")
+        ax1.set_xlabel("Cutoff Mean Free Path for Phonons (${ \\AA }$)")
         # ax1.set_ylim([0, 15])
         ax1.set_xlim([10, 1e5])
-        ax1.set_ylim([0, .8 * 100])
+        ax1.set_ylim([0, 100])
         ax1.set_ylabel("Thermal Conductivity Anisotropy (%)")
         # ax1.text(-.15, 1, 'b)', transform=ax1.transAxes, **text_style)
-    setLegend(ax1, ncol=2, loc=0, fontsize=8)
+    setLegend(ax1, ncol=4, loc=0, fontsize=12)
     fi.subplots_adjust(
         left=None,
         bottom=None,

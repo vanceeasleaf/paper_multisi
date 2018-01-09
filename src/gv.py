@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 14:39:58
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-12-16 16:05:05
+# @Last Modified time: 2018-01-09 17:04:18
 import aces.tools as tl
 from aces.graph import fig, setLegend, pl
 import numpy as np
@@ -52,7 +52,7 @@ with fig('gv.eps'):
         x, y = binmeanx(np.c_[freqs, gvs[:, 1]], [0, 20], df)
         ax.plot(x, y, color="r", ls="--", lw=3, label=v1 + "a")
         # ax.text(.02,.8,"("+v+")",transform=ax.transAxes,**text_style)
-        setLegend(ax, ncol=1, fontsize=10)
+        setLegend(ax, ncol=1, fontsize=12)
         # ax.set_yticks([])
         ax.set_xlim([0.05, 19.9])
         ax.set_ylim([0.05, None])

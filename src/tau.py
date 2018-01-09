@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-12-16 16:04:01
+# @Last Modified time: 2018-01-09 17:04:00
 
 
 from aces.graph import fig, setLegend, pl
@@ -70,7 +70,7 @@ with fig('tau.eps'):
                     ls='--')
                 ax.set_xlim([0.01, 19.55])
                 ax.set_ylim([1.1e-1, 2e2])
-                setLegend(ax, fontsize=10)
+                setLegend(ax, fontsize=12)
     fi.text(0.5, 0.00, 'Phonon Frequency (THz)', ha='center')
     fi.text(
         0.03, 0.5, 'Relaxation Time (ps)', va='center', rotation='vertical')

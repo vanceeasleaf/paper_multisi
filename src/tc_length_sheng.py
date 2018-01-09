@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-14 22:16:16
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2017-11-22 11:25:20
+# @Last Modified time: 2018-01-09 17:01:27
 from aces.tools import *
 from aces.graph import fig, setLegend, pl, fit
 import numpy as np
@@ -82,7 +82,7 @@ with fig('tc_length_sheng.eps', figsize=(7, 8)):
         print(v + "z=" + str(kas[0][i]) + " " + v +
               "a=" + str(kas[1][i]) + " kai=" + str(kai) + "%")
     kas = []
-    setLegend(ax1, ncol=2, loc=0, fontsize=8)
+    setLegend(ax1, ncol=1, loc=0, fontsize=12)
     ax1 = axes[1]
     vs = '3l1,4l1,5l1,6l1,8l1'.split(',')
     for s in ['z', 'a']:
@@ -127,12 +127,13 @@ with fig('tc_length_sheng.eps', figsize=(7, 8)):
             p = fit(l, ka, [1, 1, 1], ff)
             xx = np.linspace(10, 1e4, 1000)
             ax1.semilogx(xx, ff(p, xx), color=c, ls=o1)
-            ax1.set_xlabel("Cutoff Mean Free Path for Phonons (Angstrom)")
+            ax1.set_xlabel(
+                "Cutoff Mean Free Path for Phonons (${ \\AA }$)")
             ax1.set_ylim([-2, 39])
             ax1.set_xlim([0.5, 1e5])
             ax1.set_ylabel("Thermal Conductivity(W/mK)")
             ax1.text(-.15, 1, 'b)', transform=ax1.transAxes, **text_style)
-    setLegend(ax1, ncol=2, loc=0, fontsize=8)
+    setLegend(ax1, ncol=1, loc=0, fontsize=12)
     kas = np.array(kas).reshape([2, -1])
     for i, v in enumerate(vs):
         kai = np.abs(kas[0][ i] - kas[1][i ]) / \
