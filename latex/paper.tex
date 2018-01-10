@@ -1,7 +1,7 @@
 % @Author: YangZhou
 % @Date:   2017-06-20 20:27:38
 % @Last Modified by:   YangZhou
-% @Last Modified time: 2018-01-09 16:34:41
+% @Last Modified time: 2018-01-10 23:52:08
 
 \documentclass[aps,prb,twocolumn,showpacs,amsmath,amssymb]{revtex4-1}
 
@@ -52,8 +52,7 @@ Many theoretical and experimental results showed that the quantum confinement an
 The combined effects of quantum size and surface reconstruction in multilayer silicene are expected to induce exotic thermal transport properties different from either monolayer silicene or bulk Si, which may make it suitable for the thermoelectric applications. Since thermal conductivity of monolayer silicene and bulk Si had been well explored, the investigation on multilayer silicene is helpful for understanding thermal conductivity evolution from two dimensional (2D) to three dimensional (3D) systems.
 
 The existing researches on thermal conductivity of 2D materials mainly focus on the ones with weak van der Waals (vdW) interlayer interactions where no surface reconstruction appears. The multilayer graphene\cite{Lindsay2011, Ni2012,Wang2011}, $MoS_2$\cite{Liu2015}, and black phosphorus\cite{Zhang2015,Peng2015,Jain2015} are such kind of 2D materials which had been well studied.  Whereas, the thermal conductivity of 2D materials with strong interlayer interactions is poorly understood so far.
-The multilayer silicene, which has been both theoretically predicted and experimentally synthesized, can be an ideal material for such an investigation \cite{Fu2014,Padova2016,Guo2015Structural}.
-Previous studies showed that multilayer silicene exhibits special surface reconstructions which induce  intriguing electronic property\cite{Fu2014,Guo2015Structural}. Naturally, one also expects the surface reconstruction to play a key role in its thermal transport property.
+The multilayer silicene, which has been both theoretically predicted and experimentally synthesized, can be an ideal material for such an investigation \cite{Fu2014,Padova2016,Guo2015Structural}.The silicon materials present complex surface reconstructions, which are usually neglected for thermal conductivity investigations due to their small specific surface area. However, the reconstruction effect can be significant when a material's thickness becomes ultra thin, i. e., multilayer silicene.  Previous studies showed that multilayer silicene exhibits special surface reconstructions which induce  intriguing electronic property\cite{Fu2014,Guo2015Structural}. Naturally, one also expects the surface reconstruction to play a key role in its thermal transport property.
 
 On the other hand, both experimental and theoretical studies showed that surface reconstruction in 2D materials can induce large anisotropy. For example, black phosphorus and phosphorene exhibit distinct thermal transport anisotropy owning to their puckered structures\cite{Zhang2015,Peng2015}.
 The thermal transport anisotropy is closely relevant to the thermomechanical reliability of functional devices in nanoelectronics. In particular, alternative flexible substrate and active layer materials with increased thermal conductivity are  desirable  to prevent thermomechanical failures which have become a big challenge in flexible devices based on 2D materials\cite{Akinwande2014,Sadeghi2016}. Revealing the surface reconstruction effect on thermal conductivity anisotropy of multilayer silicene could stimulate the studies of covalently bonded 2D materials for the potential applications in the nanoelectronics.
@@ -69,10 +68,10 @@ The atomic structures of multilayer silicene that were predicted to be stable by
 
 \begin{figure}[b]
   \includegraphics[angle= 0, width=0.95\linewidth]{images/structures.eps}
-  \caption{\label{fig:structures}  (color online)  Top view and side views of typical structures of multilayer silicene. The buckling Si atoms on the top layer are labeled as yellow balls, and the red balls represent the remaining Si atoms on the top layer. All the Si atoms on the bottom layer are labeled as the blue balls. The green balls represent Si atoms in the middle layers. The orientation of top view of the cells is armchair in the x direction and zigzag in the y direction in the figure.}
+  \caption{\label{fig:structures}  (color online)  Top view and side views of typical structures of multilayer silicene. The buckling Si atoms on the top layer are labeled as yellow balls, and the red balls represent the remaining Si atoms on the top layer. All the Si atoms on the bottom layer are labeled as the blue balls. The green balls represent Si atoms in the middle layers. The orientation of top view of the cells is armchair in the x direction and zigzag in the y direction in the figure. The structures exihibit obvious and pretty different surface reconsruction.}
 \end{figure}
 
-Silicene structures are fully optimized using the conjugate gradient method.  The finite displacement method (FDM) realized in Phonopy\cite{Togo2008} and Thirdorder \cite{Li2014} are applied to extract the second- and third-order force constants (FCs) respectively,  in which hundreds of  slightly displaced supercells are generated. The obtained forces are calculated and used to calculate the FCs with the numerical differential calculation. The supercells of $3 \times 3 \times 1$ primitive cells are adopted to make the in-plane dimension above 40 \angstrom, which ensure the accuracy of calculated forces. Following the previous studies\cite{Pei2013,Fu2014}, we choose Si (111) layer spacing of $3.14 \angstrom$ as the interlayer thickness.
+Silicene structures are fully optimized using the conjugate gradient method.  The finite displacement method (FDM) realized in Phonopy\cite{Togo2008} and Thirdorder \cite{Li2014} are applied to extract the second- and third-order force constants (FCs) respectively,  in which hundreds of  slightly displaced supercells are generated. The obtained forces are calculated and used to calculate the FCs with the numerical differential calculation. The supercells of $3 \times 3 \times 1$ primitive cells are adopted to make the in-plane dimension above 40 \angstrom, which ensure the accuracy of calculated forces. Following the previous studies\cite{Pei2013,Fu2014}, we choose Si (111) layer spacing of $3.14 \angstrom$ as the interlayer thickness d because the thickness of two dimensional silicene is hard to restrictly determined, since it's a common constant for all the structures, the conclusion is independent on the absolute value of d, so a experimental value makes sence here.
 
 The thermal conductivity tensor can be calculated as
 \begin{equation}
@@ -108,12 +107,12 @@ It is found that both 2l2 and 2l3 structures show large thermal conductivity ani
 
 \begin{figure}[b]
   \includegraphics[angle= 0, width=0.9\linewidth]{images/tc_length_sheng.eps}
-  \caption{\label{fig:tc_length_sheng} (color online) a) The size dependence of thermal conductivity of three bilayer silicene structures. b) The thickness dependence of thermal conductivity of silicene with $2\times 1$ reconstruction. The dots are the results from BTE calculations, and the lines are the fitted results using Eq.(\ref{eq:eq_nemd}). The letter z/a in the legend means that the transport direction is zigzag/armchair. The dots of 2l2a and 2l2z are almost the same so red solid dots are covered. }
+  \caption{\label{fig:tc_length_sheng} (color online) The depencence of cummulative thermal conductivity(TC) on cutoff phonon mean free path for all the structures. a) The cummulative TC of bilayer silicene structures. b) The cummulative TC of multilayer silicene with $2\times 1$ reconstruction and different layer. The dots are the results from BTE calculations, and the lines are the fitted results using Eq.(\ref{eq:eq_nemd}). The letter z/a in the legend means that the transport direction is zigzag/armchair. The dots of 2l2a and 2l2z are almost the same so red solid dots are covered. With the increase of cutoff mean free path TC converges. For bilayer structures TC along armchair direction is larger while for the others TC along zigzag direction is larger. With the increase of thickness TC along zigzag decreases while that along armchair increases a little. }
 \end{figure}
 
 \begin{figure}[b]
   \includegraphics[angle= 0, width=0.9\linewidth]{images/chi.eps}{}
-  \caption{\label{fig:chi} (color online) The silicene length dependence of thermal conductivity anisotropy $\chi$.}
+  \caption{\label{fig:chi} (color online) The dependence on cutoff MPF of cummulative TC anisotropy $\chi$. $\chi$ of 2l2 structure is exactly zero and is a horizonal line at 0. For 2l1, 2l3  structures the anisotropy increase with the cutoff MPF while that of 3l1 decreases. The others show indepencece of cutoff MPF. For bilayer silicence the anisotropy comes from long wave phonons while for multilayer structure it comes from phonons of all the wave length. }
 \end{figure}
 
 Here we discuss the thickness dependence of thermal conductivity anisotropy in multilayer silicene. We mainly focus on the structures of 3-8 Si layers in thickness, whose surface present the typical $2 \times 1$ Si(111) reconstruction. A common feature is that the thermal conductivity in the zigzag direction ($\kappa_z$) is obviously higher than that  in the armchair ($\kappa_a$) direction, which induces anisotropy larger than 55\%.
@@ -158,17 +157,17 @@ We select all the phonons along  $\Gamma\rightarrow X$ and $\Gamma \rightarrow Y
 
 \begin{figure}[b]
   \includegraphics[width=1\linewidth]{images/tc_freq.eps}
-  \caption{\label{fig:tc_freq} (color online)  The converged thermal conductivity of multilayer silicene versus phonon frequency. }
+  \caption{\label{fig:tc_freq} (color online)  The phonon frequency dependence of converged thermal conductivity of multilayer silicene. For bilayer structures TC mainly comes from low frequency phonons while the others have more contribution from high frequency phonons and they have similar curve. TC of bilayer structure have larger TC along armchair direction at low frequency and the anisotropy deceases with frequency. For the other structures, TC shows little difference along the two direction at low frequency but TC along zigzag direction is higher at high frequency. }
 \end{figure}
 
 \begin{figure}[b]
   \includegraphics[width=1\linewidth]{images/tau.eps}
-  \caption{\label{fig:tau} (color online)  Phonons lifetimes of multilayer silicene obtained by considering the three-phonon scattering process. }
+  \caption{\label{fig:tau} (color online)  Phonons lifetimes of multilayer silicene obtained by considering the three-phonon scattering process.  The horizonal dash line at 1.0ps is a guidence for the main contribution region of phonon frequency. Phonon lifetime doent's show obvious anisotropy in both bilayer structure and multilayer structures (except for the anmornal region of 5-7 THz in 4l1 structure). The main contribution of lifetime comes from low frequency phonons in bilayer structures while the others have relative uniform contribution from the frequency domain.  }
 \end{figure}
 
 \begin{figure}[b]
   \includegraphics[width=0.9\linewidth]{images/gv.eps}{}
-  \caption{\label{fig:gv} (color online) Group velocities versus phonon frequencies in both the zigzag and armchair directions of multilayer silicene. The histogram bin width is chosen as 1.5 THz.}
+  \caption{\label{fig:gv} (color online) Group velocities versus phonon frequencies in both the zigzag and armchair directions of multilayer silicene. The histogram bin width is chosen as 1.5 THz. The bilayer structures have isotropic group velocities at low frequency region and the contribution from high frequency could be ignored considering the valishment of lifetime at this region. The structure of 3-6 layers exhibit anisotropic group velocity which suggests localization of phonons.}
 \end{figure}
 We then explore the contributions from the phonon lifetimes for the thermal conductivity anisotropy.
 We have considered the three-phonon scattering process, where the scattering rate is obtained from the Fermi-golden's rule\cite{Li2014} under the relaxation time approximation (RTA). The iterative method was then adopted to include the cross influence of the phonon excitation, since it usually gives lager but more accurate lifetimes than the RTA. The frequency dependence of phonon lifetimes calculated with ShengBTE\cite{Li2014} are shown in Fig.\ref{fig:tau}, where the values are averaged for frequency bins to reduce complexity.  It is shown that the lifetimes of larger than 1 ps for bilayer silicene structures (2l1, 2l3) distribute on the low-frequency region, indicating the dominating contributions of low-frequency phonons to the thermal conductivity. Moreover, the lifetimes in armchair direction are obviously larger than that in zigzag direction in the low-frequency region. This feature indicates that the thermal conductivity anisotropy of bilayer silicene is attributed to the difference of phonon lifetimes in different directions.
