@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-14 22:16:16
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2018-01-09 16:54:40
+# @Last Modified time: 2018-01-11 15:18:39
 from aces.tools import *
 from aces.graph import fig, setLegend, pl, fit
 import numpy as np
@@ -49,7 +49,7 @@ with fig('chi.eps', figsize=(7, 8)):
         if v == '2lhex':
             v = '2l3'
         label = v
-        ax1.semilogx(l, ka, label=label, **opts)
+        ax1.semilogx(l, ka, label=label.replace('l', 'L'), **opts)
         ax1.set_xlabel("Cutoff Mean Free Path for Phonons (${ \\AA }$)")
         # ax1.set_ylim([0, 15])
         ax1.set_xlim([10, 1e5])

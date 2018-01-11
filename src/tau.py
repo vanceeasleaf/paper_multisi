@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2018-01-09 17:04:00
+# @Last Modified time: 2018-01-11 15:21:11
 
 
 from aces.graph import fig, setLegend, pl
@@ -60,7 +60,8 @@ with fig('tau.eps'):
                     markeredgecolor=colors[i],
                     markerfacecolor=mfc,
                     color=colors[i],
-                    label=v1 + s)
+                    label=(v1 + s).replace('l', 'L')
+                )
                 ax.axhline(
                     y=1,
                     xmin=0,

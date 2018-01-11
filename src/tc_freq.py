@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-16 18:34:55
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2018-01-09 17:02:43
+# @Last Modified time: 2018-01-11 15:20:32
 
 
 from aces.graph import fig, setLegend, pl
@@ -41,7 +41,7 @@ with fig('tc_freq.eps'):
                     ax.plot(
                         kappa[p, 0],
                         (kappa[p + 2, 1] - kappa[p, 1]) / df,
-                        label=v1 + s, ls=ls,
+                        label=(v1 + s).replace('l', 'L'), ls=ls,
                         marker=markers[0],
                         markersize=9,
                         markeredgecolor=colors[0],
@@ -51,7 +51,7 @@ with fig('tc_freq.eps'):
                     ax.plot(
                         kappa[p, 0],
                         (kappa[p + 2, 5] - kappa[p, 5]) / df,
-                        label=v1 + s, ls=ls,
+                        label=(v1 + s).replace('l', 'L'), ls=ls,
                         marker=markers[0],
                         markersize=9,
                         markeredgecolor=colors[0],

@@ -2,7 +2,7 @@
 # @Author: YangZhou
 # @Date:   2017-06-14 22:16:16
 # @Last Modified by:   YangZhou
-# @Last Modified time: 2018-01-09 17:01:27
+# @Last Modified time: 2018-01-11 15:16:45
 from aces.tools import *
 from aces.graph import fig, setLegend, pl, fit
 import numpy as np
@@ -66,7 +66,7 @@ with fig('tc_length_sheng.eps', figsize=(7, 8)):
                 v = '2l3'
             label = v + s
             kas.append(ka[-1])
-            ax1.semilogx(l, ka, label=label, **opts)
+            ax1.semilogx(l, ka, label=label.replace('l', 'L'), **opts)
             p = fit(l, ka, [1, 1, 1], ff)
             xx = np.linspace(10, 1e4, 1000)
             ax1.semilogx(xx, ff(p, xx), color=c, ls=o1)
@@ -123,7 +123,7 @@ with fig('tc_length_sheng.eps', figsize=(7, 8)):
                 ka = a
             label = v + s
             kas.append(ka[-1])
-            ax1.semilogx(l, ka, label=label, **opts)
+            ax1.semilogx(l, ka, label=label.replace('l', 'L'), **opts)
             p = fit(l, ka, [1, 1, 1], ff)
             xx = np.linspace(10, 1e4, 1000)
             ax1.semilogx(xx, ff(p, xx), color=c, ls=o1)
